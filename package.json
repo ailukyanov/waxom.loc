@@ -1,0 +1,33 @@
+{
+  "name": "waxom.loc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.27.3",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "node-sass": "^6.0.1",
+    "normalize.css": "^8.0.1",
+    "npm": "^7.19.0",
+    "yarn": "^1.22.10"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ailukyanov/waxom.loc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ailukyanov/waxom.loc/issues"
+  },
+  "homepage": "https://github.com/ailukyanov/waxom.loc#readme"
+}
