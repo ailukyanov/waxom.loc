@@ -1,10 +1,11 @@
 .header {
-  height: 980px;
-  background-size: cover;
-  background-color: black;
-  background-image: url("../img/bg-photo1.jpg");
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 400;
 
-  &__top {
+  &__content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,10 +19,7 @@
       }
     }
 
-
-
     .nav {
-
       ul {
         display: flex;
         list-style-type: none;
@@ -48,37 +46,4 @@
       }
     }
   }
-
-  &__content {
-    text-align: center;
-    padding-top: 170px;
-  }
-
-  &__title {
-    font-size: 36px;
-    font-weight: normal;
-    color: #ffffff;
-    letter-spacing: -0.7px;
-    margin: 0;
-  }
-
-  &__description {
-    font-size: 52px;
-    color: #ffffff;
-    font-weight: bold;
-    letter-spacing: -1.8px;
-    margin: 0 0 40px;
-
-    p {
-      font-size: 16px;
-      font-weight: normal;
-      letter-spacing: normal;
-    }
-  }
-
-  &__button {
-    background-color: grey;
-    color: #ffffff;
-  }
-
 }
