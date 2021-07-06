@@ -1,0 +1,11 @@
+.footer {
+  &__content {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+}

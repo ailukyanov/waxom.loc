@@ -1,0 +1,33 @@
+.services {
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 50px;
+  }
+
+  &__item {
+    text-align: center;
+  }
+
+  &__icon {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  &__title {
+    font-size: 18px;
+    color: #222222;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  &__description {
+    font-size: 18px;
+    color: #777777;
+    font-family: "Times New Roman", sans-serif;
+    margin: 0;
+    line-height: 24px;
+  }
+}

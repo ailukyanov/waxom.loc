@@ -1,0 +1,10 @@
+.boxes {
+
+  &__content {
+    display: flex;
+    justify-content: space-around;
+    background-image: url("../img/Background1.jpg");
+    color: #ffffff;
+
+  }
+}

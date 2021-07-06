@@ -1,0 +1,18 @@
+.logos {
+
+  &__content {
+    background-image: url("../img/Background3.jpg");
+    text-align: center;
+    padding: 60px 0;
+    background-size: cover;
+
+    a {
+      display: inline-block;
+      margin-right: 40px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}

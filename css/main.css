@@ -415,3 +415,110 @@ body {
         background-color: transparent; }
     .slider__dot:last-child {
       margin-right: 0; }
+
+.services__content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-top: 50px; }
+
+.services__item {
+  text-align: center; }
+
+.services__icon {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.services__title {
+  font-size: 18px;
+  color: #222222;
+  margin-bottom: 10px;
+  font-weight: bold; }
+
+.services__description {
+  font-size: 18px;
+  color: #777777;
+  font-family: "Times New Roman", sans-serif;
+  margin: 0;
+  line-height: 24px; }
+
+.realization__slogan {
+  text-align: center; }
+
+.realization__browser {
+  display: flex;
+  justify-content: center; }
+
+.boxes__content {
+  display: flex;
+  justify-content: space-around;
+  background-image: url("../img/Background1.jpg");
+  color: #ffffff; }
+
+.projects__slogan {
+  text-align: center; }
+
+.projects__button {
+  text-align: center; }
+
+.portfolio {
+  background-color: #f7f7f7; }
+  .portfolio__content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+  .portfolio__item {
+    width: 31%;
+    text-align: center;
+    margin-bottom: 52px;
+    background-color: #ffffff;
+    padding-bottom: 25px; }
+  .portfolio__icon {
+    margin-bottom: 24px; }
+    .portfolio__icon img {
+      max-width: 100%; }
+  .portfolio__title {
+    font-size: 18px;
+    color: #333333;
+    font-weight: bold;
+    margin-bottom: 3px; }
+  .portfolio__description {
+    font-size: 14px;
+    color: #737373;
+    font-family: "Times New Roman", sans-serif; }
+
+.devices__item {
+  display: flex; }
+
+.counters {
+  display: flex;
+  background-image: url("../img/Background2.jpg");
+  justify-content: space-evenly;
+  text-align: center; }
+
+.posts__slogan {
+  text-align: center; }
+
+.logos__content {
+  background-image: url("../img/Background3.jpg");
+  text-align: center;
+  padding: 60px 0;
+  background-size: cover; }
+  .logos__content a {
+    display: inline-block;
+    margin-right: 40px; }
+    .logos__content a:last-child {
+      margin-right: 0; }
+
+.about__content {
+  background-color: #222222;
+  display: flex;
+  justify-content: center; }
+
+.footer__content {
+  display: flex;
+  text-align: center;
+  justify-content: center; }
+
+.footer ul {
+  list-style-type: none; }
