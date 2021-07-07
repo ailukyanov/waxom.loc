@@ -304,7 +304,7 @@ template {
   display: none; }
 
 body {
-  font-family: Arial, sans-serif; }
+  font-family: 'Montserrat', 'Raleway', sans-serif; }
 
 .wrapper {
   max-width: 1180px;
@@ -445,7 +445,7 @@ body {
 .realization__slogan {
   text-align: center; }
 
-.realization__browser {
+.realization__portfolio {
   display: flex;
   justify-content: center; }
 
