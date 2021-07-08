@@ -499,6 +499,8 @@ body {
     justify-content: center; }
   .devices__slogan {
     line-height: 1.5; }
+  .devices__menu {
+    list-style-image: url("../img/arrow.png"); }
 
 .counters {
   display: flex;

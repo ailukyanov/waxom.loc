@@ -5,8 +5,12 @@
     justify-content: center;
   }
 
-  &__slogan{
+  &__slogan {
     line-height: 1.5;
 
+  }
+
+  &__menu {
+    list-style-image: url("../img/arrow.png");
   }
 }
