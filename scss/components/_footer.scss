@@ -1,4 +1,6 @@
 .footer {
+  background-color: #000000;
+
   &__content {
     display: flex;
     justify-content: space-evenly;
@@ -10,6 +12,7 @@
 
     a{
       text-decoration: none;
+      color: #808080;
     }
   }
 
