@@ -374,7 +374,8 @@ body {
       letter-spacing: normal; }
   .slider__button {
     background-color: grey;
-    color: #ffffff; }
+    color: #ffffff;
+    text-transform: uppercase; }
   .slider__arrows {
     position: absolute;
     left: 0;
@@ -460,7 +461,8 @@ body {
   text-align: center; }
 
 .projects__button {
-  text-align: center; }
+  text-align: center;
+  text-transform: uppercase; }
 
 .portfolio {
   background-color: #f7f7f7; }
@@ -490,7 +492,8 @@ body {
     font-family: "Times New Roman", sans-serif; }
 
 .video__content video {
-  max-width: 100%; }
+  max-width: 100%;
+  margin-top: 80px; }
 
 .devices {
   padding-top: 80px; }
