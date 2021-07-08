@@ -451,9 +451,10 @@ body {
 
 .boxes__content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-image: url("../img/Background1.jpg");
-  color: #ffffff; }
+  color: #ffffff;
+  margin-top: -4px; }
 
 .projects__slogan {
   text-align: center; }
@@ -465,8 +466,9 @@ body {
   background-color: #f7f7f7; }
   .portfolio__content {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap; }
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px; }
   .portfolio__item {
     width: 31%;
     text-align: center;
@@ -487,33 +489,52 @@ body {
     color: #737373;
     font-family: "Times New Roman", sans-serif; }
 
-.devices__item {
-  display: flex; }
+.video__content video {
+  max-width: 100%; }
+
+.devices {
+  padding-top: 80px; }
+  .devices__item {
+    display: flex;
+    justify-content: center; }
+  .devices__slogan {
+    line-height: 1.5; }
 
 .counters {
   display: flex;
   background-image: url("../img/Background2.jpg");
   justify-content: space-evenly;
-  text-align: center; }
+  text-align: center;
+  color: #ffffff;
+  margin-top: -4px; }
+
+.posts__content {
+  margin-top: 80px; }
 
 .posts__slogan {
   text-align: center; }
 
-.logos__content {
-  background-image: url("../img/Background3.jpg");
-  text-align: center;
-  padding: 60px 0;
-  background-size: cover; }
-  .logos__content a {
-    display: inline-block;
-    margin-right: 40px; }
-    .logos__content a:last-child {
-      margin-right: 0; }
+.logos {
+  margin-top: 80px; }
+  .logos__content {
+    background-image: url("../img/Background3.jpg");
+    text-align: center;
+    padding: 60px 0;
+    background-size: cover; }
+    .logos__content a {
+      display: inline-block;
+      margin-right: 40px; }
+      .logos__content a:last-child {
+        margin-right: 0; }
 
 .about__content {
   background-color: #222222;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  color: #ffffff;
+  line-height: 1.5;
+  padding-top: 80px;
+  padding-bottom: 85px; }
 
 .footer__content {
   display: flex;

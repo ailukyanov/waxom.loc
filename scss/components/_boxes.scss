@@ -2,9 +2,10 @@
 
   &__content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-image: url("../img/Background1.jpg");
     color: #ffffff;
+    margin-top: -4px;
 
   }
 }

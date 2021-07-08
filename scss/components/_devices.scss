@@ -1,5 +1,12 @@
 .devices {
+  padding-top: 80px;
   &__item {
     display: flex;
+    justify-content: center;
+  }
+
+  &__slogan{
+    line-height: 1.5;
+
   }
 }
