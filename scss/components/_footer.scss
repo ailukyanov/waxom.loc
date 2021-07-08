@@ -1,11 +1,17 @@
 .footer {
   &__content {
     display: flex;
-    text-align: center;
-    justify-content: center;
+    justify-content: space-evenly;
   }
 
   ul {
     list-style-type: none;
+    display: flex;
+
+    a{
+      text-decoration: none;
+    }
   }
+
+
 }
