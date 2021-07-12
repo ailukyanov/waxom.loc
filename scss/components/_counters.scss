@@ -1,13 +1,16 @@
 .counters {
-  display: flex;
-  background-image: url("../img/Background2.jpg");
-  justify-content: space-evenly;
-  text-align: center;
-  color: #ffffff;
-  margin-top: -4px;
-  padding-top: 70px;
-  padding-bottom: 60px;
-  line-height: 45px;
+
+  &__content {
+    display: flex;
+    background-image: url("../img/Background2.jpg");
+    justify-content: space-evenly;
+    text-align: center;
+    color: #ffffff;
+    margin-top: -4px;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    line-height: 45px;
+  }
 
   &__title {
     font-size: xxx-large;

@@ -1,13 +1,14 @@
 .devices {
-  padding-top: 80px;
-  &__item {
+
+  &__content {
     display: flex;
     justify-content: center;
+    padding-top: 80px;
   }
 
-  &__slogan {
-    line-height: 1.5;
-
+  &__title {
+    line-height: 2;
+    padding-top: 80px;
   }
 
   &__menu {

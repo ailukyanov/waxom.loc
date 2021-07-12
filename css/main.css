@@ -536,17 +536,19 @@ body {
   max-width: 100%;
   margin-top: 80px; }
 
-.devices {
+.devices__content {
+  display: flex;
+  justify-content: center;
   padding-top: 80px; }
-  .devices__item {
-    display: flex;
-    justify-content: center; }
-  .devices__slogan {
-    line-height: 1.5; }
-  .devices__menu {
-    list-style-image: url("../img/arrow.png"); }
 
-.counters {
+.devices__title {
+  line-height: 2;
+  padding-top: 80px; }
+
+.devices__menu {
+  list-style-image: url("../img/arrow.png"); }
+
+.counters__content {
   display: flex;
   background-image: url("../img/Background2.jpg");
   justify-content: space-evenly;
@@ -556,11 +558,13 @@ body {
   padding-top: 70px;
   padding-bottom: 60px;
   line-height: 45px; }
-  .counters__title {
-    font-size: xxx-large; }
-  .counters__description {
-    text-transform: uppercase;
-    color: #998675; }
+
+.counters__title {
+  font-size: xxx-large; }
+
+.counters__description {
+  text-transform: uppercase;
+  color: #998675; }
 
 .posts__content {
   margin-top: 80px; }
