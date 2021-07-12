@@ -9,6 +9,10 @@
 
   &__item {
     text-align: center;
+
+    &:hover {
+      background: #c7b299;
+    }
   }
 
   &__icon {

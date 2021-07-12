@@ -425,6 +425,8 @@ body {
 
 .services__item {
   text-align: center; }
+  .services__item:hover {
+    background: #c7b299; }
 
 .services__icon {
   margin-top: 15px;
