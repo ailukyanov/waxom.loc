@@ -4,9 +4,12 @@
     display: flex;
     justify-content: space-evenly;
     background-image: url("../img/Background1.jpg");
-    color: #ffffff;
+    color: #998675;
     margin-top: -4px;
 
+    span {
+      color: white;
+    }
   }
 
   &__button {

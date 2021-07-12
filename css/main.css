@@ -340,7 +340,7 @@ body {
         color: #ffffff;
         text-decoration: none; }
         .header__content .nav__item a:hover {
-          color: yellow; }
+          color: #998675; }
 
 .slider {
   position: relative; }
@@ -379,7 +379,9 @@ body {
     height: 45px;
     margin-top: 35px;
     border-radius: 5px;
-    cursor: pointer; }
+    cursor: pointer;
+    padding-left: 35px;
+    padding-right: 35px; }
   .slider__arrows {
     position: absolute;
     left: 0;
@@ -461,8 +463,10 @@ body {
   display: flex;
   justify-content: space-evenly;
   background-image: url("../img/Background1.jpg");
-  color: #ffffff;
+  color: #998675;
   margin-top: -4px; }
+  .boxes__content span {
+    color: white; }
 
 .boxes__button {
   background-color: #998675;
@@ -498,7 +502,9 @@ body {
   height: 45px;
   margin-top: 35px;
   border-radius: 5px;
-  cursor: pointer; }
+  cursor: pointer;
+  padding-left: 35px;
+  padding-right: 35px; }
 
 .portfolio {
   background-color: #f7f7f7; }
@@ -511,7 +517,7 @@ body {
     width: 31%;
     text-align: center;
     margin-bottom: 52px;
-    background-color: #ffffff;
+    background-color: ghostwhite;
     padding-bottom: 25px; }
   .portfolio__icon {
     margin-bottom: 24px; }
@@ -519,9 +525,9 @@ body {
       max-width: 100%; }
   .portfolio__title {
     font-size: 18px;
-    color: #333333;
     font-weight: bold;
-    margin-bottom: 3px; }
+    margin-bottom: 3px;
+    color: #998675; }
   .portfolio__description {
     font-size: 14px;
     color: #737373;
