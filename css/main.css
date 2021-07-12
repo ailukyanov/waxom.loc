@@ -630,6 +630,9 @@ body {
 .about__textcolor--gr {
   color: #f7f7f7; }
 
+.about__line {
+  border-bottom: 1px solid #696969; }
+
 .footer {
   background-color: #000000; }
   .footer__content {
