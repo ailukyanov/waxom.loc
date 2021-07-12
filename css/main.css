@@ -606,6 +606,15 @@ body {
   padding-top: 80px;
   padding-bottom: 85px; }
 
+.about__item {
+  margin-left: 40px; }
+  .about__item:first-child {
+    margin-left: 0; }
+
+.about__photos {
+  max-width: 50%;
+  margin-top: 20px; }
+
 .about p {
   color: #696969; }
 
