@@ -378,7 +378,8 @@ body {
     text-transform: uppercase;
     height: 45px;
     margin-top: 35px;
-    border-radius: 5px; }
+    border-radius: 5px;
+    cursor: pointer; }
   .slider__arrows {
     position: absolute;
     left: 0;
@@ -429,7 +430,8 @@ body {
 .services__item {
   text-align: center; }
   .services__item:hover {
-    background: #c7b299; }
+    background: #c7b299;
+    cursor: pointer; }
 
 .services__icon {
   margin-top: 15px;
@@ -468,7 +470,8 @@ body {
   text-transform: uppercase;
   height: 45px;
   margin-top: 35px;
-  border-radius: 5px; }
+  border-radius: 5px;
+  cursor: pointer; }
 
 .projects__slogan {
   text-align: center; }
@@ -494,7 +497,8 @@ body {
   text-transform: uppercase;
   height: 45px;
   margin-top: 35px;
-  border-radius: 5px; }
+  border-radius: 5px;
+  cursor: pointer; }
 
 .portfolio {
   background-color: #f7f7f7; }
