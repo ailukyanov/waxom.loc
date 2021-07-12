@@ -9,6 +9,27 @@
     padding-bottom: 85px;
   }
 
-  &__item {
+  p {
+    color: #696969;
+  }
+
+  &__textcolor {
+
+    &--wh {
+      color: #f7f7f7;
+    }
+
+    &--gl {
+      color: #998675;;
+    }
+
+    &--bl {
+      color: #4682b4;
+    }
+
+    &--gr {
+      color: #f7f7f7;
+    }
+
   }
 }

@@ -590,6 +590,21 @@ body {
   padding-top: 80px;
   padding-bottom: 85px; }
 
+.about p {
+  color: #696969; }
+
+.about__textcolor--wh {
+  color: #f7f7f7; }
+
+.about__textcolor--gl {
+  color: #998675; }
+
+.about__textcolor--bl {
+  color: #4682b4; }
+
+.about__textcolor--gr {
+  color: #f7f7f7; }
+
 .footer {
   background-color: #000000; }
   .footer__content {
