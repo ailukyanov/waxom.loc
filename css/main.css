@@ -477,22 +477,26 @@ body {
   border-radius: 5px;
   cursor: pointer; }
 
-.projects__slogan {
+.projects__title {
   text-align: center; }
+  .projects__title p {
+    line-height: 2; }
 
-.projects__menu nav ul {
-  display: flex;
-  justify-content: center;
-  list-style-type: none; }
-  .projects__menu nav ul a {
-    text-decoration: none;
-    padding: 10px;
-    color: grey;
-    border: 1px solid;
-    margin-right: 10px; }
-    .projects__menu nav ul a:hover {
-      background-color: #998675;
-      color: white; }
+.projects__menu nav {
+  padding-top: 5px; }
+  .projects__menu nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none; }
+    .projects__menu nav ul a {
+      text-decoration: none;
+      padding: 10px;
+      color: grey;
+      border: 1px solid;
+      margin-right: 10px; }
+      .projects__menu nav ul a:hover {
+        background-color: #998675;
+        color: white; }
 
 .projects__button {
   background-color: #998675;
@@ -569,8 +573,16 @@ body {
 .posts__content {
   margin-top: 80px; }
 
-.posts__slogan {
+.posts__title {
   text-align: center; }
+  .posts__title p {
+    line-height: 2; }
+
+.posts__arrows {
+  display: flex;
+  justify-content: center; }
+  .posts__arrows--right {
+    margin-left: 8px; }
 
 .logos {
   margin-top: 80px; }
