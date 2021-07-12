@@ -609,7 +609,7 @@ body {
 .about__item {
   margin-left: 40px; }
   .about__item:first-child {
-    margin-left: 0; }
+    margin-left: 15%; }
 
 .about__photos {
   max-width: 50%;
