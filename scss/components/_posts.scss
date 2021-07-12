@@ -15,6 +15,10 @@
     display: flex;
     justify-content: center;
 
+    &:hover {
+      cursor: pointer;
+    }
+
     &--right {
       margin-left: 8px;
     }
