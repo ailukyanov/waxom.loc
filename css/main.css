@@ -581,10 +581,8 @@ body {
 .posts__arrows {
   display: flex;
   justify-content: center; }
-  .posts__arrows:hover {
-    cursor: pointer; }
   .posts__arrows--right {
-    margin-left: 8px; }
+    margin-left: 10px; }
 
 .logos {
   margin-top: 80px; }
