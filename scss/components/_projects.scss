@@ -15,15 +15,12 @@
         justify-content: center;
         list-style-type: none;
 
-        li {
-          border: 1px solid grey;
-          margin-right: 10px;
-        }
-
         a {
           text-decoration: none;
           padding: 10px;
           color: grey;
+          border: 1px solid;
+          margin-right: 10px;
 
           &:hover {
             background-color: #998675;

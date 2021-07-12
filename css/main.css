@@ -484,13 +484,12 @@ body {
   display: flex;
   justify-content: center;
   list-style-type: none; }
-  .projects__menu nav ul li {
-    border: 1px solid grey;
-    margin-right: 10px; }
   .projects__menu nav ul a {
     text-decoration: none;
     padding: 10px;
-    color: grey; }
+    color: grey;
+    border: 1px solid;
+    margin-right: 10px; }
     .projects__menu nav ul a:hover {
       background-color: #998675;
       color: white; }
