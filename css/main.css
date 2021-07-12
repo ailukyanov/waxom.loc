@@ -460,9 +460,20 @@ body {
 .projects__slogan {
   text-align: center; }
 
-.projects__button {
-  text-align: center;
-  text-transform: uppercase; }
+.projects__button nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none; }
+  .projects__button nav ul li {
+    border: 1px solid grey;
+    margin-right: 10px; }
+  .projects__button nav ul a {
+    text-decoration: none;
+    padding: 10px;
+    color: grey; }
+    .projects__button nav ul a:hover {
+      background-color: #998675;
+      color: white; }
 
 .portfolio {
   background-color: #f7f7f7; }

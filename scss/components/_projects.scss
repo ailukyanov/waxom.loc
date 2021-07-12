@@ -9,8 +9,29 @@
   }
 
   &__button {
-    text-align: center;
-    text-transform: uppercase;
+    nav {
+      ul {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+
+        li {
+          border: 1px solid grey;
+          margin-right: 10px;
+        }
+
+        a {
+          text-decoration: none;
+          padding: 10px;
+          color: grey;
+
+          &:hover {
+            background-color: #998675;
+            color: white;
+          }
+        }
+      }
+    }
   }
 
   &__portfolio {
