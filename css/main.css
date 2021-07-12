@@ -477,37 +477,37 @@ body {
   border-radius: 5px;
   cursor: pointer; }
 
-.projects__title {
-  text-align: center; }
-  .projects__title p {
-    line-height: 2; }
-
-.projects__menu nav {
-  padding-top: 5px; }
-  .projects__menu nav ul {
-    display: flex;
-    justify-content: center;
-    list-style-type: none; }
-    .projects__menu nav ul a {
-      text-decoration: none;
-      padding: 10px;
-      color: grey;
-      border: 1px solid;
-      margin-right: 10px; }
-      .projects__menu nav ul a:hover {
-        background-color: #998675;
-        color: white; }
-
-.projects__button {
-  background-color: #998675;
-  color: #ffffff;
-  text-transform: uppercase;
-  height: 45px;
-  margin-top: 35px;
-  border-radius: 5px;
-  cursor: pointer;
-  padding-left: 35px;
-  padding-right: 35px; }
+.projects {
+  margin-top: 80px; }
+  .projects__title {
+    text-align: center; }
+    .projects__title p {
+      line-height: 2; }
+  .projects__menu nav {
+    padding-top: 5px; }
+    .projects__menu nav ul {
+      display: flex;
+      justify-content: center;
+      list-style-type: none; }
+      .projects__menu nav ul a {
+        text-decoration: none;
+        padding: 10px;
+        color: grey;
+        border: 1px solid;
+        margin-right: 10px; }
+        .projects__menu nav ul a:hover {
+          background-color: #998675;
+          color: white; }
+  .projects__button {
+    background-color: #998675;
+    color: #ffffff;
+    text-transform: uppercase;
+    height: 45px;
+    margin-top: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-left: 35px;
+    padding-right: 35px; }
 
 .portfolio {
   background-color: #f7f7f7; }
