@@ -1,19 +1,31 @@
 .footer {
-  background-color: #000000;
+  background-color: #111111;
 
   &__content {
     display: flex;
     justify-content: space-evenly;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 
   ul {
     list-style-type: none;
     display: flex;
 
+    li {
+      border-left: 1px solid #696969;
+
+      &:nth-child(1) {
+        border-left: none;
+      }
+
+    }
+
     a{
       text-decoration: none;
       color: #696969;
       margin-right: 15px;
+      padding-left: 10px;
 
       &:hover {
         color: #998675;

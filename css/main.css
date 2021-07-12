@@ -598,7 +598,7 @@ body {
         margin-right: 0; }
 
 .about__content {
-  background-color: #222222;
+  background-color: #191919;
   display: flex;
   justify-content: center;
   color: #ffffff;
@@ -634,17 +634,24 @@ body {
   border-bottom: 1px solid #696969; }
 
 .footer {
-  background-color: #000000; }
+  background-color: #111111; }
   .footer__content {
     display: flex;
-    justify-content: space-evenly; }
+    justify-content: space-evenly;
+    padding-top: 25px;
+    padding-bottom: 25px; }
   .footer ul {
     list-style-type: none;
     display: flex; }
+    .footer ul li {
+      border-left: 1px solid #696969; }
+      .footer ul li:nth-child(1) {
+        border-left: none; }
     .footer ul a {
       text-decoration: none;
       color: #696969;
-      margin-right: 15px; }
+      margin-right: 15px;
+      padding-left: 10px; }
       .footer ul a:hover {
         color: #998675; }
   .footer span {
