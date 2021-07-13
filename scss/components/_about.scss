@@ -18,6 +18,14 @@
     }
   }
 
+  a {
+    margin-left: 10px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
   &__photos {
     max-width: 50%;
     margin-top: 20px;

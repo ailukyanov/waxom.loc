@@ -496,7 +496,7 @@ body {
         border: 1px solid;
         margin-right: 10px; }
         .projects__menu nav ul a:hover {
-          background-color: #998675;
+          background-color: #c7b299;
           color: white; }
   .projects__button {
     background-color: #998675;
@@ -528,13 +528,25 @@ body {
       max-width: 100%; }
   .portfolio__title {
     font-size: 18px;
-    font-weight: bold;
     margin-bottom: 3px;
-    color: #998675; }
+    color: #c7b299;
+    font-weight: 500; }
   .portfolio__description {
     font-size: 14px;
     color: #737373;
-    font-family: "Times New Roman", sans-serif; }
+    line-height: 2;
+    text-align: initial;
+    padding-left: 20%;
+    margin-top: 15px; }
+  .portfolio__arrow {
+    text-align: initial;
+    margin-left: 20%;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #c7b299; }
+    .portfolio__arrow a {
+      margin-left: 10px;
+      cursor: pointer; }
 
 .video__content video {
   max-width: 100%;
@@ -583,6 +595,8 @@ body {
   justify-content: center; }
   .posts__arrows--right {
     margin-left: 10px; }
+  .posts__arrows a:hover {
+    cursor: pointer; }
 
 .logos {
   margin-top: 80px; }
@@ -610,6 +624,11 @@ body {
   margin-left: 40px; }
   .about__item:first-child {
     margin-left: 15%; }
+
+.about a {
+  margin-left: 10px; }
+  .about a:hover {
+    cursor: pointer; }
 
 .about__photos {
   max-width: 50%;

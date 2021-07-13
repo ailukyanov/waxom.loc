@@ -15,8 +15,16 @@
     display: flex;
     justify-content: center;
 
+
+
     &--right {
       margin-left: 10px;
+    }
+
+    a {
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
 }
