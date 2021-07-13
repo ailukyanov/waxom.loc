@@ -19,4 +19,21 @@
       cursor: pointer;
     }
   }
+
+  &__title {
+    position: absolute;
+    top: 52%;
+    left: 35%;
+    text-align: center;
+    color: #f7f7f7;
+    line-height: 1.5;
+    font-family: Raleway, sans-serif;
+  }
+
+
+  &__time {
+    position: absolute;
+    top: 72%;
+    left: 49%;
+  }
 }

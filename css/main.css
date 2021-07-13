@@ -581,6 +581,20 @@ body {
   .video__player:hover {
     cursor: pointer; }
 
+.video__title {
+  position: absolute;
+  top: 52%;
+  left: 35%;
+  text-align: center;
+  color: #f7f7f7;
+  line-height: 1.5;
+  font-family: Raleway, sans-serif; }
+
+.video__time {
+  position: absolute;
+  top: 72%;
+  left: 49%; }
+
 .devices__content {
   display: flex;
   justify-content: center;
