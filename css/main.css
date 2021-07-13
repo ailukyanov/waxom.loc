@@ -436,24 +436,42 @@ h2 {
 .services__item {
   text-align: center; }
   .services__item:hover {
-    background: #c7b299;
     cursor: pointer; }
+    .services__item:hover .services__icon svg {
+      fill: #c7b299; }
+    .services__item:hover .services__line:before {
+      background-color: #c7b299; }
+    .services__item:hover .services__title {
+      color: #c7b299; }
 
 .services__icon {
   margin-top: 15px;
   margin-bottom: 15px; }
+  .services__icon svg {
+    height: 50px;
+    fill: #555;
+    transition: fill 0.2s; }
 
 .services__title {
   font-size: 18px;
   color: #222222;
   margin-bottom: 10px;
-  font-weight: bold; }
+  font-weight: bold;
+  transition: color 0.2s; }
 
 .services__description {
   font-size: 16px;
   color: #777777;
   margin: 0;
   line-height: 24px; }
+
+.services__line:before {
+  display: inline-block;
+  width: 70px;
+  height: 3px;
+  background-color: #f1eee9;
+  transition: background-color 0.2s;
+  content: ""; }
 
 .realization__slogan {
   text-align: center; }
@@ -710,9 +728,11 @@ h2 {
   margin-top: 80px; }
   .logos__content {
     background-image: url("../img/Background3.jpg");
-    text-align: center;
-    padding: 60px 0;
-    background-size: cover; }
+    background-size: cover;
+    height: 490px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
     .logos__content a {
       display: inline-block;
       margin-right: 40px; }

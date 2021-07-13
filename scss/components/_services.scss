@@ -11,14 +11,38 @@
     text-align: center;
 
     &:hover {
-      background: #c7b299;
       cursor: pointer;
+
+      .services__icon {
+
+        svg {
+          fill: #c7b299;
+        }
+      }
+
+      .services__line {
+
+        &:before {
+          background-color: #c7b299;
+        }
+      }
+
+      .services__title {
+          color: #c7b299;
+      }
+
     }
   }
 
   &__icon {
     margin-top: 15px;
     margin-bottom: 15px;
+
+    svg {
+      height: 50px;
+      fill: #555;
+      transition: fill 0.2s;
+    }
   }
 
   &__title {
@@ -26,6 +50,7 @@
     color: #222222;
     margin-bottom: 10px;
     font-weight: bold;
+    transition: color 0.2s;
   }
 
   &__description {
@@ -33,5 +58,17 @@
     color: #777777;
     margin: 0;
     line-height: 24px;
+  }
+
+  &__line {
+
+    &:before {
+      display: inline-block;
+      width: 70px;
+      height: 3px;
+      background-color: #f1eee9;
+      transition: background-color 0.2s;
+      content: "";
+    }
   }
 }

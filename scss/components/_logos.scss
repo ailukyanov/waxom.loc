@@ -4,9 +4,11 @@
 
   &__content {
     background-image: url("../img/Background3.jpg");
-    text-align: center;
-    padding: 60px 0;
     background-size: cover;
+    height: 490px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     a {
       display: inline-block;
