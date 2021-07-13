@@ -53,4 +53,18 @@
       cursor: pointer;
     }
   }
+
+  &__bg {
+    position: relative;
+  }
+
+  &__date {
+    position: absolute;
+    top: 15px;
+    left: 130px;
+
+    img {
+      border-radius: 5px;
+    }
+  }
 }

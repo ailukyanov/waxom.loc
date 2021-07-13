@@ -547,6 +547,14 @@ body {
     .portfolio__arrow a {
       margin-left: 10px;
       cursor: pointer; }
+  .portfolio__bg {
+    position: relative; }
+  .portfolio__date {
+    position: absolute;
+    top: 15px;
+    left: 130px; }
+    .portfolio__date img {
+      border-radius: 5px; }
 
 .video__content video {
   max-width: 100%;
