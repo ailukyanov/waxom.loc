@@ -524,6 +524,7 @@ body {
     background-color: ghostwhite;
     padding-bottom: 25px; }
   .portfolio__icon {
+    position: relative;
     margin-bottom: 24px; }
     .portfolio__icon img {
       max-width: 100%; }
@@ -641,6 +642,8 @@ body {
   position: absolute;
   top: 15px;
   left: 25px; }
+  .portfolios__date:hover {
+    cursor: pointer; }
   .portfolios__date img {
     border-radius: 5px; }
 
