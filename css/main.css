@@ -555,6 +555,18 @@ body {
     left: 130px; }
     .portfolio__date img {
       border-radius: 5px; }
+  .portfolio__link {
+    position: absolute;
+    top: 100px;
+    left: 140px; }
+    .portfolio__link:hover {
+      cursor: pointer; }
+  .portfolio__lupa {
+    position: absolute;
+    top: 100px;
+    left: 190px; }
+    .portfolio__lupa:hover {
+      cursor: pointer; }
 
 .video__content video {
   max-width: 100%;
