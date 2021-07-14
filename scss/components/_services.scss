@@ -48,19 +48,20 @@
   &__title {
     font-size: 18px;
     color: #222222;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     font-weight: bold;
     transition: color 0.2s;
   }
 
   &__description {
+    margin-bottom: 30px;
     font-size: 16px;
     color: #777777;
-    margin: 0;
     line-height: 24px;
   }
 
   &__line {
+    margin-bottom: 80px;
 
     &:before {
       display: inline-block;

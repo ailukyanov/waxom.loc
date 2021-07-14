@@ -456,30 +456,38 @@ h2 {
 .services__title {
   font-size: 18px;
   color: #222222;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
   font-weight: bold;
   transition: color 0.2s; }
 
 .services__description {
+  margin-bottom: 30px;
   font-size: 16px;
   color: #777777;
-  margin: 0;
   line-height: 24px; }
 
-.services__line:before {
-  display: inline-block;
-  width: 70px;
-  height: 3px;
-  background-color: #f1eee9;
-  transition: background-color 0.2s;
-  content: ""; }
+.services__line {
+  margin-bottom: 80px; }
+  .services__line:before {
+    display: inline-block;
+    width: 70px;
+    height: 3px;
+    background-color: #f1eee9;
+    transition: background-color 0.2s;
+    content: ""; }
 
-.realization__slogan {
-  text-align: center; }
-
-.realization__portfolio {
-  display: flex;
-  justify-content: center; }
+.realization {
+  padding-top: 80px;
+  background: #fbfaf8; }
+  .realization__slogan {
+    text-align: center;
+    line-height: 1.5; }
+    .realization__slogan p {
+      color: #939393; }
+  .realization__portfolio {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px; }
 
 .boxes__content {
   display: flex;
@@ -526,7 +534,6 @@ h2 {
     color: #ffffff;
     text-transform: uppercase;
     height: 45px;
-    margin-top: 35px;
     border-radius: 5px;
     cursor: pointer;
     padding-left: 35px;
@@ -541,27 +548,27 @@ h2 {
     flex-wrap: wrap;
     margin-top: 40px; }
   .portfolio__item {
-    width: 31%;
-    text-align: center;
-    margin-bottom: 52px;
-    background-color: ghostwhite;
-    padding-bottom: 25px; }
+    margin-bottom: 50px;
+    background-color: #fbfaf8;
+    padding-bottom: 20px; }
   .portfolio__icon {
-    position: relative;
-    margin-bottom: 24px; }
+    position: relative; }
     .portfolio__icon img {
       max-width: 100%; }
+  .portfolio__text {
+    padding-top: 20px;
+    padding-left: 20px;
+    line-height: 1.5;
+    margin-top: -4px;
+    padding-bottom: 20px; }
   .portfolio__title {
     font-size: 18px;
-    margin-bottom: 3px;
     color: #c7b299;
     font-weight: 500; }
   .portfolio__description {
     font-size: 14px;
-    color: #737373;
-    line-height: 2;
-    text-align: initial;
-    padding-left: 20%;
+    color: #d1d1d1;
+    line-height: 1.5;
     margin-top: 15px; }
   .portfolio__link {
     position: absolute;

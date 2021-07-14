@@ -1,14 +1,22 @@
 .realization {
+  padding-top: 80px;
+  background: #fbfaf8;
 
   &__content {
   }
 
   &__slogan {
     text-align: center;
+    line-height: 1.5;
+
+    p {
+      color: #939393;
+    }
   }
 
   &__portfolio {
     display: flex;
     justify-content: center;
+    padding-top: 30px;
   }
 }

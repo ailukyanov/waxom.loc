@@ -9,37 +9,38 @@
   }
 
   &__item {
-    width: 31%;
-    text-align: center;
-    margin-bottom: 52px;
-    background-color: ghostwhite;
-    padding-bottom: 25px;
+    margin-bottom: 50px;
+    background-color: #fbfaf8;
+    padding-bottom: 20px;
   }
 
   &__icon {
     position: relative;
-    margin-bottom: 24px;
 
     img {
       max-width: 100%;
     }
   }
 
+  &__text {
+    padding-top: 20px;
+    padding-left: 20px;
+    line-height: 1.5;
+    margin-top: -4px;
+    padding-bottom: 20px;
+  }
+
   &__title {
     font-size: 18px;
-    margin-bottom: 3px;
     color: #c7b299;
     font-weight: 500;
   }
 
   &__description {
     font-size: 14px;
-    color: #737373;
-    line-height: 2;
-    text-align: initial;
-    padding-left: 20%;
+    color: #d1d1d1;
+    line-height: 1.5;
     margin-top: 15px;
-
   }
 
   &__link {
