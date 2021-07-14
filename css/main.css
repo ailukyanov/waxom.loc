@@ -631,23 +631,22 @@ h2 {
 .devices__menu {
   list-style-image: url("../img/arrow.png"); }
 
-.counters__content {
-  display: flex;
-  background-image: url("../img/Background2.jpg");
-  justify-content: space-evenly;
-  text-align: center;
-  color: #ffffff;
-  margin-top: -4px;
-  padding-top: 70px;
-  padding-bottom: 60px;
-  line-height: 45px; }
-
-.counters__title {
-  font-size: xxx-large; }
-
-.counters__description {
-  text-transform: uppercase;
-  color: #998675; }
+.counters {
+  background-image: url("../img/Background2.jpg"); }
+  .counters__content {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color: #ffffff;
+    margin-top: -4px;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    line-height: 45px; }
+  .counters__title {
+    font-size: xxx-large; }
+  .counters__description {
+    text-transform: uppercase;
+    color: #998675; }
 
 .posts__content {
   margin-top: 80px; }
