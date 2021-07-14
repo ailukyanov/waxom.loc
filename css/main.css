@@ -489,24 +489,32 @@ h2 {
     justify-content: center;
     padding-top: 30px; }
 
-.boxes__content {
-  display: flex;
-  justify-content: space-evenly;
-  background-image: url("../img/Background1.jpg");
-  color: #998675;
-  margin-top: -4px; }
-  .boxes__content span {
-    color: white; }
-
-.boxes__button {
-  background-color: #998675;
-  color: #ffffff;
-  text-transform: uppercase;
-  height: 45px;
-  margin-top: 35px;
-  border-radius: 5px;
-  border: none;
-  cursor: pointer; }
+.boxes {
+  background-image: url("../img/Background1.jpg"); }
+  .boxes__content {
+    display: flex;
+    justify-content: space-between;
+    color: #998675;
+    margin-top: -4px;
+    height: 150px; }
+    .boxes__content span {
+      color: white; }
+  .boxes__slogan {
+    padding-top: 35px;
+    line-height: 0.5; }
+    .boxes__slogan p {
+      color: #615855; }
+  .boxes__button {
+    padding-top: 15px; }
+    .boxes__button--btn {
+      background-color: #998675;
+      color: #ffffff;
+      text-transform: uppercase;
+      height: 45px;
+      margin-top: 35px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer; }
 
 .projects {
   margin-top: 80px; }
