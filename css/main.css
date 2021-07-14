@@ -615,7 +615,9 @@ h2 {
 .video__time {
   position: absolute;
   top: 72%;
-  left: 49%; }
+  left: 49%;
+  color: #c7b299;
+  font-weight: 500; }
 
 .devices__content {
   display: flex;
