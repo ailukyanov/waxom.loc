@@ -1,12 +1,12 @@
 .logos {
+  background-image: url("../img/Background3.jpg");
+  background-size: cover;
   margin-top: 80px;
 
   &__content {
-    background-image: url("../img/Background3.jpg");
-    background-size: cover;
     height: 490px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 
     a {

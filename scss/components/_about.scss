@@ -1,7 +1,7 @@
 .about {
+  background-color: #191919;
 
   &__content {
-    background-color: #191919;
     display: flex;
     justify-content: center;
     color: #ffffff;
@@ -11,10 +11,24 @@
   }
 
   &__item {
-    margin-left: 40px;
+    width: 264px;
+    margin-left: 25px;
 
     &:first-child {
-      margin-left: 15%;
+      margin-left: 0;
+    }
+
+  }
+
+  &__title {
+    font-size: 24px;
+  }
+
+  &__description {
+    font-size: 14px;
+
+    p {
+      font-size: 12px;
     }
   }
 
@@ -27,30 +41,29 @@
   }
 
   &__photos {
-    max-width: 50%;
-    margin-top: 20px;
+    margin-top: 15px;
   }
 
   p {
-    color: #696969;
+    color: #555555;
   }
 
   &__textcolor {
 
     &--wh {
-      color: #f7f7f7;
+      color: #ffffff;
     }
 
     &--gl {
-      color: #998675;;
+      color: #998977;;
     }
 
     &--bl {
-      color: #4682b4;
+      color: #02b4e4;
     }
 
     &--gr {
-      color: #f7f7f7;
+      color: #959595;
     }
 
   }
