@@ -454,7 +454,7 @@ h2 {
     transition: fill 0.2s; }
 
 .services__title {
-  font-size: 18px;
+  font-size: 22px;
   color: #222222;
   margin-bottom: 25px;
   font-weight: bold;
@@ -482,6 +482,8 @@ h2 {
   .realization__slogan {
     text-align: center;
     line-height: 1.5; }
+    .realization__slogan h2 {
+      font-size: 30px; }
     .realization__slogan p {
       color: #939393; }
   .realization__portfolio {
@@ -502,8 +504,11 @@ h2 {
   .boxes__slogan {
     padding-top: 35px;
     line-height: 0.5; }
+    .boxes__slogan h2 {
+      font-size: 28px; }
     .boxes__slogan p {
-      color: #615855; }
+      color: #615855;
+      font-size: 18px; }
   .boxes__button {
     padding-top: 15px; }
     .boxes__button--btn {
@@ -520,6 +525,8 @@ h2 {
   margin-top: 80px; }
   .projects__title {
     text-align: center; }
+    .projects__title h2 {
+      font-size: 30px; }
     .projects__title p {
       line-height: 2; }
   .projects__menu nav {
@@ -672,6 +679,8 @@ h2 {
 
 .posts__title {
   text-align: center; }
+  .posts__title h2 {
+    font-size: 30px; }
   .posts__title p {
     line-height: 2; }
 
@@ -711,6 +720,24 @@ h2 {
     border-radius: 5px 5px 0 0; }
   .portfolios__date--month {
     background-color: #252525;
+    height: 25px;
+    width: 50px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 12px;
+    border-radius: 0 0 5px 5px; }
+  .portfolios__date--day_hv {
+    background-color: #c7b299;
+    height: 30px;
+    width: 50px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 24px;
+    border-radius: 5px 5px 0 0; }
+  .portfolios__date--month_hv {
+    background-color: #a48d72;
     height: 25px;
     width: 50px;
     color: #ffffff;
