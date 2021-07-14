@@ -9,9 +9,35 @@
   &__title {
     line-height: 2;
     padding-top: 80px;
+
+    h2 {
+      color: #555555;
+      font-size: 30px;
+    }
+
+    p {
+      color: #8c8c8c;
+    }
   }
 
   &__menu {
-    list-style-image: url("../img/arrow.png");
+    list-style: none;
+    margin-left: 10px;
+    color: #8c8c8c;
+  }
+
+  &__list {
+    position: relative;
+    padding-left: 50px;
+
+    &:before {
+      content: '';
+      background: url("../img/arrow.png") 0 0 no-repeat;
+      width: 21px;
+      height: 21px;
+      position: absolute;
+      top: 5px;
+      left: 0;
+    }
   }
 }
