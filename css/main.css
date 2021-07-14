@@ -306,14 +306,14 @@ template {
 body {
   font-family: 'Montserrat', 'Raleway', sans-serif; }
 
-h2 {
-  font-family: Raleway, sans-serif;
-  letter-spacing: 1px; }
-
 .wrapper {
   max-width: 1180px;
   margin: 0 auto;
   padding: 0 20px; }
+
+h2 {
+  font-family: Raleway, sans-serif;
+  letter-spacing: 1px; }
 
 .header {
   position: absolute;
