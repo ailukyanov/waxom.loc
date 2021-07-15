@@ -569,7 +569,8 @@ h2 {
     padding-bottom: 20px; }
     .portfolio__item:hover {
       background-color: #362f2d;
-      cursor: pointer; }
+      cursor: pointer;
+      opacity: 0.5; }
   .portfolio__icon {
     position: relative; }
     .portfolio__icon img {
@@ -725,7 +726,8 @@ h2 {
   margin-left: 25px; }
   .portfolios__item:hover {
     background-color: #362f2d;
-    cursor: pointer; }
+    cursor: pointer;
+    opacity: 0.5; }
   .portfolios__item:first-child {
     margin-left: 0; }
 
@@ -745,6 +747,15 @@ h2 {
     padding-top: 5px;
     font-size: 24px;
     border-radius: 5px 5px 0 0; }
+    .portfolios__date--day:hover {
+      background-color: #c7b299;
+      height: 30px;
+      width: 50px;
+      color: #ffffff;
+      text-align: center;
+      padding-top: 5px;
+      font-size: 24px;
+      border-radius: 5px 5px 0 0; }
   .portfolios__date--month {
     background-color: #252525;
     height: 25px;
@@ -754,24 +765,15 @@ h2 {
     padding-top: 5px;
     font-size: 12px;
     border-radius: 0 0 5px 5px; }
-  .portfolios__date--day_hv {
-    background-color: #c7b299;
-    height: 30px;
-    width: 50px;
-    color: #ffffff;
-    text-align: center;
-    padding-top: 5px;
-    font-size: 24px;
-    border-radius: 5px 5px 0 0; }
-  .portfolios__date--month_hv {
-    background-color: #a48d72;
-    height: 25px;
-    width: 50px;
-    color: #ffffff;
-    text-align: center;
-    padding-top: 5px;
-    font-size: 12px;
-    border-radius: 0 0 5px 5px; }
+    .portfolios__date--month:hover {
+      background-color: #a48d72;
+      height: 25px;
+      width: 50px;
+      color: #ffffff;
+      text-align: center;
+      padding-top: 5px;
+      font-size: 12px;
+      border-radius: 0 0 5px 5px; }
   .portfolios__date:hover {
     cursor: pointer; }
   .portfolios__date img {
@@ -880,6 +882,8 @@ h2 {
       cursor: pointer; }
   .about__photos {
     margin-top: 15px; }
+    .about__photos img:hover {
+      opacity: 0.5; }
   .about__date {
     color: #555555; }
     .about__date:hover {

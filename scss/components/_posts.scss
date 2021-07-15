@@ -45,6 +45,7 @@
     &:hover {
       background-color: #362f2d;
       cursor: pointer;
+      opacity: 0.5;
     }
 
     &:first-child {
@@ -70,6 +71,17 @@
       padding-top: 5px;
       font-size: 24px;
       border-radius: 5px 5px 0 0;
+
+      &:hover {
+        background-color: #c7b299;
+        height: 30px;
+        width: 50px;
+        color: #ffffff;
+        text-align: center;
+        padding-top: 5px;
+        font-size: 24px;
+        border-radius: 5px 5px 0 0;
+      }
     }
 
     &--month {
@@ -81,28 +93,17 @@
       padding-top: 5px;
       font-size: 12px;
       border-radius: 0 0 5px 5px;
-    }
 
-    &--day_hv {
-      background-color: #c7b299;
-      height: 30px;
-      width: 50px;
-      color: #ffffff;
-      text-align: center;
-      padding-top: 5px;
-      font-size: 24px;
-      border-radius: 5px 5px 0 0;
-    }
-
-    &--month_hv {
-      background-color: #a48d72;
-      height: 25px;
-      width: 50px;
-      color: #ffffff;
-      text-align: center;
-      padding-top: 5px;
-      font-size: 12px;
-      border-radius: 0 0 5px 5px;
+        &:hover {
+          background-color: #a48d72;
+          height: 25px;
+          width: 50px;
+          color: #ffffff;
+          text-align: center;
+          padding-top: 5px;
+          font-size: 12px;
+          border-radius: 0 0 5px 5px;
+        }
     }
 
     &:hover {
