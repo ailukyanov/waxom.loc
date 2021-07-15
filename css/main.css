@@ -779,7 +779,8 @@ h2 {
   line-height: 1.5;
   border: 1px solid #f8f8f8;
   margin-top: -5px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  margin-right: -1px; }
 
 .portfolios__title {
   font-size: 18px;
