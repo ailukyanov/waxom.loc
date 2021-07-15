@@ -6,6 +6,10 @@
     justify-content: space-between;
     padding-top: 25px;
     padding-bottom: 25px;
+
+    &--left {
+      margin-left: -25px;
+    }
   }
 
   ul {
@@ -23,17 +27,17 @@
 
     a{
       text-decoration: none;
-      color: #696969;
+      color: #555555;
       margin-right: 15px;
       padding-left: 10px;
 
       &:hover {
-        color: #998675;
+        color: #af9d87;
       }
     }
   }
 
   span {
-    color: #f7f7f7;
+    color: #959595;
   }
 }

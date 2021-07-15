@@ -699,6 +699,9 @@ h2 {
 
 .portfolios__item {
   margin-left: 25px; }
+  .portfolios__item:hover {
+    background-color: #362f2d;
+    cursor: pointer; }
   .portfolios__item:first-child {
     margin-left: 0; }
 
@@ -755,7 +758,7 @@ h2 {
   padding-top: 20px;
   line-height: 1.5;
   border: 1px solid #f8f8f8;
-  margin-top: -4px;
+  margin-top: -5px;
   padding-bottom: 20px; }
 
 .portfolios__title {
@@ -868,6 +871,8 @@ h2 {
     justify-content: space-between;
     padding-top: 25px;
     padding-bottom: 25px; }
+    .footer__content--left {
+      margin-left: -25px; }
   .footer ul {
     list-style-type: none;
     display: flex; }
@@ -877,10 +882,10 @@ h2 {
         border-left: none; }
     .footer ul a {
       text-decoration: none;
-      color: #696969;
+      color: #555555;
       margin-right: 15px;
       padding-left: 10px; }
       .footer ul a:hover {
-        color: #998675; }
+        color: #af9d87; }
   .footer span {
-    color: #f7f7f7; }
+    color: #959595; }

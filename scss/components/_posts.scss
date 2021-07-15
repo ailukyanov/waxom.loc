@@ -36,16 +36,19 @@
     display: flex;
     justify-content: center;
     margin-bottom: 52px;
-
   }
 
   &__item {
     margin-left: 25px;
 
+    &:hover {
+      background-color: #362f2d;
+      cursor: pointer;
+    }
+
     &:first-child {
       margin-left: 0;
     }
-
   }
 
   &__bg {
@@ -56,8 +59,6 @@
     position: absolute;
     top: 15px;
     left: 25px;
-
-
 
     &--day {
       background-color: #363636;
@@ -117,7 +118,7 @@
     padding-top: 20px;
     line-height: 1.5;
     border: 1px solid #f8f8f8;
-    margin-top: -4px;
+    margin-top: -5px;
     padding-bottom: 20px;
   }
 
