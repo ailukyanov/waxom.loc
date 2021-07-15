@@ -584,11 +584,15 @@ h2 {
     font-size: 18px;
     color: #c7b299;
     font-weight: 500; }
+    .portfolio__title:hover {
+      color: #d7d5d5; }
   .portfolio__description {
     font-size: 14px;
     color: #d1d1d1;
     line-height: 1.5;
     margin-top: 15px; }
+    .portfolio__description:hover {
+      color: #c7b299; }
   .portfolio__link {
     position: absolute;
     top: 100px;
@@ -784,14 +788,18 @@ h2 {
 
 .portfolios__title {
   font-size: 18px;
-  color: #c7b299;
+  color: #828282;
   font-weight: 500; }
+  .portfolios__title:hover {
+    color: #a08f7c; }
 
 .portfolios__description {
   font-size: 14px;
-  color: #737373;
+  color: #ababab;
   line-height: 1.5;
   margin-top: 15px; }
+  .portfolios__description:hover {
+    color: #ffffff; }
 
 .portfolios__arrow {
   padding-top: 15px;

@@ -126,15 +126,23 @@
 
   &__title {
     font-size: 18px;
-    color: #c7b299;
+    color: #828282;
     font-weight: 500;
+
+      &:hover {
+        color: #a08f7c;
+      }
   }
 
   &__description {
     font-size: 14px;
-    color: #737373;
+    color: #ababab;
     line-height: 1.5;
     margin-top: 15px;
+
+      &:hover {
+        color: #ffffff;
+      }
   }
 
   &__arrow {

@@ -39,6 +39,10 @@
     font-size: 18px;
     color: #c7b299;
     font-weight: 500;
+
+    &:hover {
+      color: #d7d5d5;
+    }
   }
 
   &__description {
@@ -46,6 +50,10 @@
     color: #d1d1d1;
     line-height: 1.5;
     margin-top: 15px;
+
+    &:hover {
+      color: #c7b299;
+    }
   }
 
   &__link {
