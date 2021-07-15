@@ -76,17 +76,15 @@
     border-top: 10px solid transparent;
     bottom: 4px;
     left: 13px;
+
+      &:hover {
+        position: absolute;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 10px solid #362f2d;
+        border-top: 10px solid transparent;
+        bottom: 4px;
+        left: 13px;
+      }
   }
-
-  &__triangle_hv {
-    position: absolute;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-bottom: 10px solid #362f2d;
-    border-top: 10px solid transparent;
-    bottom: 4px;
-    left: 13px;
-  }
-
-
 }
