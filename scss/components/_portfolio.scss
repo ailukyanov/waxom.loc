@@ -12,6 +12,11 @@
     margin-bottom: 50px;
     background-color: #fbfaf8;
     padding-bottom: 20px;
+
+    &:hover {
+      background-color: #362f2d;
+      cursor: pointer;
+    }
   }
 
   &__icon {
