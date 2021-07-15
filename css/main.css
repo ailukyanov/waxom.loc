@@ -874,21 +874,27 @@ h2 {
     font-size: 14px; }
     .about__description p {
       font-size: 12px; }
-  .about a {
+  .about__arrow {
     margin-left: 10px; }
-    .about a:hover {
+    .about__arrow:hover {
       cursor: pointer; }
   .about__photos {
     margin-top: 15px; }
-  .about p {
+  .about__date {
     color: #555555; }
-  .about__textcolor--wh {
-    color: #ffffff; }
-  .about__textcolor--gl {
-    color: #998977; }
+    .about__date:hover {
+      color: #f0f0f0; }
+  .about__text {
+    color: #555555; }
+    .about__text:hover {
+      color: #c7b299; }
+  .about__time {
+    color: #363636; }
   .about__textcolor--bl {
+    text-decoration: none;
     color: #02b4e4; }
   .about__textcolor--gr {
+    text-decoration: none;
     color: #959595; }
   .about__line {
     border-bottom: 1px solid #696969; }

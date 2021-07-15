@@ -31,7 +31,7 @@
     }
   }
 
-  a {
+  &__arrow {
     margin-left: 10px;
 
     &:hover {
@@ -43,25 +43,35 @@
     margin-top: 15px;
   }
 
-  p {
+  &__date {
     color: #555555;
+
+      &:hover {
+        color: #f0f0f0;
+      }
+  }
+
+  &__text {
+    color: #555555;
+
+      &:hover {
+        color: #c7b299;
+      }
+  }
+
+  &__time {
+    color: #363636;
   }
 
   &__textcolor {
 
-    &--wh {
-      color: #ffffff;
-    }
-
-    &--gl {
-      color: #998977;;
-    }
-
     &--bl {
+      text-decoration: none;
       color: #02b4e4;
     }
 
     &--gr {
+      text-decoration: none;
       color: #959595;
     }
   }
