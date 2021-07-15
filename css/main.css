@@ -598,6 +598,22 @@ h2 {
     left: 190px; }
     .portfolio__lupa:hover {
       cursor: pointer; }
+  .portfolio__triangle {
+    position: absolute;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 10px solid #fbfaf8;
+    border-top: 10px solid transparent;
+    bottom: 4px;
+    left: 13px; }
+  .portfolio__triangle_hv {
+    position: absolute;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 10px solid #362f2d;
+    border-top: 10px solid transparent;
+    bottom: 4px;
+    left: 13px; }
 
 .video__content {
   position: relative; }
