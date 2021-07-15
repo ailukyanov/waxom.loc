@@ -312,8 +312,7 @@ body {
   padding: 0 20px; }
 
 h2 {
-  font-family: Raleway, sans-serif;
-  letter-spacing: 1px; }
+  font-family: Raleway, sans-serif; }
 
 .header {
   position: absolute;
@@ -364,18 +363,20 @@ h2 {
     font-size: 36px;
     font-weight: normal;
     color: #ffffff;
-    letter-spacing: -0.7px;
     margin: 0; }
   .slider__description {
     font-size: 52px;
     color: #ffffff;
     font-weight: bold;
-    letter-spacing: -1.8px;
+    letter-spacing: 1px;
     margin: 0 0 40px; }
-    .slider__description p {
-      font-size: 16px;
-      font-weight: normal;
-      letter-spacing: normal; }
+  .slider p {
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    line-height: 1.5;
+    margin-top: -25px; }
   .slider__button {
     background-color: #998675;
     color: #ffffff;
