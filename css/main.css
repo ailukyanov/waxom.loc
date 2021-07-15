@@ -921,6 +921,7 @@ h2 {
       margin-right: 15px;
       padding-left: 10px; }
       .footer ul a:hover {
-        color: #af9d87; }
+        color: #af9d87;
+        font-weight: bold; }
   .footer span {
     color: #959595; }
