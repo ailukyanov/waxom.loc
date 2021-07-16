@@ -29,10 +29,12 @@
       color: #555555;
       margin-right: 15px;
       padding-left: 10px;
+      transition: 0.2s;
 
       &:hover {
         color: #af9d87;
         font-weight: bold;
+
       }
     }
   }
