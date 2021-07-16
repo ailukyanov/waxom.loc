@@ -668,7 +668,7 @@ h2 {
   top: 72%;
   left: 49%;
   color: #c7b299;
-  font-weight: 500; }
+  font-weight: 600; }
 
 .devices__content {
   display: flex;
@@ -785,6 +785,36 @@ h2 {
   .portfolios__date img {
     border-radius: 5px; }
 
+.portfolios__dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  padding-top: 35%;
+  z-index: 100; }
+
+.portfolios__dot {
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  margin-right: 10px;
+  border: 2px solid transparent;
+  cursor: pointer; }
+  .portfolios__dot span {
+    display: block;
+    height: 100%;
+    background-color: #c7b299; }
+  .portfolios__dot:hover {
+    border-color: #fff; }
+    .portfolios__dot:hover span {
+      background-color: transparent; }
+  .portfolios__dot:last-child {
+    margin-right: 0; }
+
 .portfolios__text {
   padding-left: 20px;
   padding-top: 20px;
@@ -816,36 +846,6 @@ h2 {
   .portfolios__arrow a {
     margin-left: 10px;
     cursor: pointer; }
-
-.portfolios__dots {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 20px;
-  display: flex;
-  justify-content: center;
-  padding-top: 35%;
-  z-index: 100; }
-
-.portfolios__dot {
-  position: relative;
-  overflow: hidden;
-  border-radius: 50%;
-  height: 10px;
-  width: 10px;
-  margin-right: 10px;
-  border: 2px solid transparent;
-  cursor: pointer; }
-  .portfolios__dot span {
-    display: block;
-    height: 100%;
-    background-color: #c7b299; }
-  .portfolios__dot:hover {
-    border-color: #fff; }
-    .portfolios__dot:hover span {
-      background-color: transparent; }
-  .portfolios__dot:last-child {
-    margin-right: 0; }
 
 .logos {
   background-image: url("../img/Background3.jpg");
