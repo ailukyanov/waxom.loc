@@ -925,7 +925,8 @@ h2 {
     text-decoration: none;
     color: #959595; }
   .about__line {
-    border-bottom: 1px solid #696969; }
+    border-bottom: 1px solid #696969;
+    width: 235px; }
 
 .footer {
   background-color: #111111; }
