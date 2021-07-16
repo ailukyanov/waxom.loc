@@ -22,6 +22,14 @@
         justify-content: center;
         list-style-type: none;
 
+        li {
+          &:first-child {
+            display: inline-block;
+            width: 65px;
+
+          }
+        }
+
         a {
           text-decoration: none;
           padding: 10px;
@@ -35,6 +43,16 @@
             background-color: #c7b299;
             color: #ffffff;
           }
+
+
+        }
+
+        .btn-first {
+          display: block;
+          width: 65px;
+          text-align: center;
+          margin-top: -11px;
+          margin-left: -32px;
         }
       }
     }

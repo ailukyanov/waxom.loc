@@ -547,6 +547,9 @@ h2 {
       display: flex;
       justify-content: center;
       list-style-type: none; }
+      .projects__menu nav ul li:first-child {
+        display: inline-block;
+        width: 65px; }
       .projects__menu nav ul a {
         text-decoration: none;
         padding: 10px;
@@ -558,6 +561,12 @@ h2 {
         .projects__menu nav ul a:hover {
           background-color: #c7b299;
           color: #ffffff; }
+      .projects__menu nav ul .btn-first {
+        display: block;
+        width: 65px;
+        text-align: center;
+        margin-top: -11px;
+        margin-left: -32px; }
   .projects__button {
     background-color: #998675;
     color: #ffffff;
