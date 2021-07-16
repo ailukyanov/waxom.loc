@@ -894,8 +894,19 @@ h2 {
     font-size: 14px; }
     .about__description p {
       font-size: 12px; }
+    .about__description--first {
+      display: flex;
+      font-size: 14px;
+      color: #b8b8b8; }
   .about__arrow {
-    margin-left: 10px; }
+    display: block;
+    margin-left: 10px;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-left: 5px solid #d1d1d1;
+    border-bottom: 5px solid transparent;
+    margin-top: 6px; }
     .about__arrow:hover {
       cursor: pointer; }
   .about__photos {
