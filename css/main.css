@@ -848,12 +848,22 @@ h2 {
   .portfolios__description:hover {
     color: #ffffff; }
 
-.portfolios__arrow {
+.portfolios__subdescription {
+  display: flex;
   padding-top: 15px;
   font-size: 14px;
   color: #c7b299; }
-  .portfolios__arrow a {
-    margin-left: 10px;
+
+.portfolios__arrow {
+  display: block;
+  margin-left: 10px;
+  width: 0;
+  height: 0;
+  border-top: 4px solid transparent;
+  border-left: 5px solid #c7b299;
+  border-bottom: 4px solid transparent;
+  margin-top: 7px; }
+  .portfolios__arrow:hover {
     cursor: pointer; }
 
 .logos {
@@ -903,10 +913,10 @@ h2 {
     margin-left: 10px;
     width: 0;
     height: 0;
-    border-top: 5px solid transparent;
+    border-top: 4px solid transparent;
     border-left: 5px solid #d1d1d1;
-    border-bottom: 5px solid transparent;
-    margin-top: 6px; }
+    border-bottom: 4px solid transparent;
+    margin-top: 7px; }
     .about__arrow:hover {
       cursor: pointer; }
   .about__photos {

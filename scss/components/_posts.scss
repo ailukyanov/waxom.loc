@@ -173,13 +173,24 @@
     }
   }
 
-  &__arrow {
+  &__subdescription {
+    display: flex;
     padding-top: 15px;
     font-size: 14px;
     color: #c7b299;
+  }
 
-    a {
-      margin-left: 10px;
+  &__arrow {
+    display: block;
+    margin-left: 10px;
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-left: 5px solid #c7b299;
+    border-bottom: 4px solid transparent;
+    margin-top: 7px;
+
+    &:hover {
       cursor: pointer;
     }
   }
