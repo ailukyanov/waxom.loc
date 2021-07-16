@@ -31,7 +31,7 @@
     padding-top: 15px;
 
     &--btn {
-      background-color: #998675;
+      background-color: #111111;
       color: #ffffff;
       text-transform: uppercase;
       height: 45px;
@@ -39,6 +39,11 @@
       border-radius: 5px;
       border: none;
       cursor: pointer;
+
+        &:hover {
+          background-color: #998675;
+          box-shadow: 0 5px 0 #736357;
+        }
     }
   }
 }

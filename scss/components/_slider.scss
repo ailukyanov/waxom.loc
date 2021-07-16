@@ -42,7 +42,7 @@
   }
 
   &__button {
-    background-color: #998675;
+    background-color: #111111;
     color: #ffffff;
     text-transform: uppercase;
     height: 45px;
@@ -52,6 +52,11 @@
     padding-left: 35px;
     padding-right: 35px;
     border: none;
+
+      &:hover {
+        background-color: #998675;
+        box-shadow: 0 5px 0 #736357;
+      }
   }
 
   &__arrows {

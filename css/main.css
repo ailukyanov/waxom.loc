@@ -378,7 +378,7 @@ h2 {
     line-height: 1.5;
     margin-top: -25px; }
   .slider__button {
-    background-color: #998675;
+    background-color: #111111;
     color: #ffffff;
     text-transform: uppercase;
     height: 45px;
@@ -388,6 +388,9 @@ h2 {
     padding-left: 35px;
     padding-right: 35px;
     border: none; }
+    .slider__button:hover {
+      background-color: #998675;
+      box-shadow: 0 5px 0 #736357; }
   .slider__arrows {
     position: absolute;
     left: 0;
@@ -513,7 +516,7 @@ h2 {
   .boxes__button {
     padding-top: 15px; }
     .boxes__button--btn {
-      background-color: #998675;
+      background-color: #111111;
       color: #ffffff;
       text-transform: uppercase;
       height: 45px;
@@ -521,6 +524,9 @@ h2 {
       border-radius: 5px;
       border: none;
       cursor: pointer; }
+      .boxes__button--btn:hover {
+        background-color: #998675;
+        box-shadow: 0 5px 0 #736357; }
 
 .projects {
   margin-top: 80px; }
@@ -546,7 +552,7 @@ h2 {
           background-color: #c7b299;
           color: white; }
   .projects__button {
-    background-color: #998675;
+    background-color: #111111;
     color: #ffffff;
     text-transform: uppercase;
     height: 45px;
@@ -555,6 +561,9 @@ h2 {
     padding-left: 35px;
     padding-right: 35px;
     border: none; }
+    .projects__button:hover {
+      background-color: #998675;
+      box-shadow: 0 5px 0 #736357; }
 
 .portfolio {
   background-color: #f7f7f7; }
