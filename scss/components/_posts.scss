@@ -63,14 +63,6 @@
     top: 15px;
     left: 25px;
 
-    &:hover &--day {
-      background-color: #c7b299;
-    }
-
-    &:hover &--month {
-      background-color: #a48d72;
-    }
-
     &--day {
       background-color: #363636;
       height: 30px;
@@ -80,8 +72,10 @@
       padding-top: 5px;
       font-size: 24px;
       border-radius: 5px 5px 0 0;
+    }
 
-
+    &:hover &--day {
+      background-color: #c7b299;
     }
 
     &--month {
@@ -93,6 +87,10 @@
       padding-top: 5px;
       font-size: 12px;
       border-radius: 0 0 5px 5px;
+    }
+
+    &:hover &--month {
+      background-color: #a48d72;
     }
 
     &:hover {

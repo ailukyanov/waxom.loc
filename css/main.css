@@ -758,10 +758,6 @@ h2 {
   position: absolute;
   top: 15px;
   left: 25px; }
-  .portfolios__date:hover .portfolios__date--day {
-    background-color: #c7b299; }
-  .portfolios__date:hover .portfolios__date--month {
-    background-color: #a48d72; }
   .portfolios__date--day {
     background-color: #363636;
     height: 30px;
@@ -771,6 +767,8 @@ h2 {
     padding-top: 5px;
     font-size: 24px;
     border-radius: 5px 5px 0 0; }
+  .portfolios__date:hover .portfolios__date--day {
+    background-color: #c7b299; }
   .portfolios__date--month {
     background-color: #252525;
     height: 25px;
@@ -780,6 +778,8 @@ h2 {
     padding-top: 5px;
     font-size: 12px;
     border-radius: 0 0 5px 5px; }
+  .portfolios__date:hover .portfolios__date--month {
+    background-color: #a48d72; }
   .portfolios__date:hover {
     cursor: pointer; }
   .portfolios__date img {
