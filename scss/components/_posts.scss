@@ -63,6 +63,14 @@
     top: 15px;
     left: 25px;
 
+    &:hover &--day {
+      background-color: #c7b299;
+    }
+
+    &:hover &--month {
+      background-color: #a48d72;
+    }
+
     &--day {
       background-color: #363636;
       height: 30px;
@@ -73,16 +81,7 @@
       font-size: 24px;
       border-radius: 5px 5px 0 0;
 
-      &:hover {
-        background-color: #c7b299;
-        height: 30px;
-        width: 50px;
-        color: #ffffff;
-        text-align: center;
-        padding-top: 5px;
-        font-size: 24px;
-        border-radius: 5px 5px 0 0;
-      }
+
     }
 
     &--month {
@@ -94,17 +93,6 @@
       padding-top: 5px;
       font-size: 12px;
       border-radius: 0 0 5px 5px;
-
-        &:hover {
-          background-color: #a48d72;
-          height: 25px;
-          width: 50px;
-          color: #ffffff;
-          text-align: center;
-          padding-top: 5px;
-          font-size: 12px;
-          border-radius: 0 0 5px 5px;
-        }
     }
 
     &:hover {
