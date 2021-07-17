@@ -329,22 +329,26 @@ h2 {
       display: inline-block; }
       .header__content .logo img {
         max-width: 100%; }
-    .header__content .nav ul {
-      display: flex;
-      list-style-type: none;
-      margin: 0;
-      padding: 0; }
-    .header__content .nav__item {
-      margin-right: 42px; }
-      .header__content .nav__item:last-child {
-        margin-right: 8px; }
-      .header__content .nav__item a {
-        font-size: 14px;
-        color: #ffffff;
-        text-decoration: none;
-        transition: 0.2s; }
-        .header__content .nav__item a:hover {
-          color: #998675; }
+    .header__content .nav {
+      margin-left: 190px; }
+      .header__content .nav ul {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0; }
+      .header__content .nav__item {
+        margin-right: 25px; }
+        .header__content .nav__item:last-child {
+          margin-right: 8px; }
+        .header__content .nav__item a {
+          font-size: 14px;
+          color: #ffffff;
+          text-decoration: none;
+          transition: 0.2s; }
+          .header__content .nav__item a:hover {
+            color: #998675; }
+    .header__content .cart {
+      margin-left: 50px; }
 
 .slider {
   position: relative; }
@@ -369,7 +373,7 @@ h2 {
     font-size: 52px;
     color: #ffffff;
     font-weight: bold;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     margin: 0 0 40px; }
   .slider p {
     font-size: 16px;

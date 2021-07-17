@@ -20,6 +20,7 @@
     }
 
     .nav {
+      margin-left: 190px;
 
       ul {
         display: flex;
@@ -29,7 +30,7 @@
       }
 
       &__item {
-        margin-right: 42px;
+        margin-right: 25px;
 
         &:last-child {
           margin-right: 8px;
@@ -46,6 +47,10 @@
           }
         }
       }
+    }
+
+    .cart {
+      margin-left: 50px;
     }
   }
 }
