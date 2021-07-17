@@ -30,6 +30,11 @@
     position: relative;
     padding-left: 50px;
 
+    &:hover {
+      cursor: pointer;
+      opacity: 0.5;
+    }
+
     &:before {
       content: '';
       background: url("../img/arrow.png") 0 0 no-repeat;

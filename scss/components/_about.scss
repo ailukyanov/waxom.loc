@@ -26,6 +26,11 @@
 
   &__title {
     font-size: 24px;
+
+    &:hover {
+      cursor: pointer;
+      opacity: 0.5;
+    }
   }
 
   &__description {
@@ -34,11 +39,16 @@
     p {
       font-size: 12px;
     }
+  }
 
-    &--first {
-      display: flex;
-      font-size: 14px;
-      color: #b8b8b8;
+  &__subdescription {
+    display: flex;
+    font-size: 14px;
+    color: #b8b8b8;
+
+    &:hover {
+      cursor: pointer;
+      opacity: 0.5;
     }
   }
 

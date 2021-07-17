@@ -12,6 +12,13 @@
     line-height: 45px;
   }
 
+  &__item {
+    &:hover {
+      cursor: pointer;
+      opacity: 0.5;
+    }
+  }
+
   &__title {
     font-size: xxx-large;
   }

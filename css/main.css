@@ -327,6 +327,9 @@ h2 {
     padding-top: 42px; }
     .header__content .logo {
       display: inline-block; }
+      .header__content .logo:hover {
+        cursor: pointer;
+        opacity: 0.5; }
       .header__content .logo img {
         max-width: 100%; }
     .header__content .nav {
@@ -551,9 +554,15 @@ h2 {
       display: flex;
       justify-content: center;
       list-style-type: none; }
-      .projects__menu nav ul li:first-child {
+      .projects__menu nav ul__btn:first-child {
         display: inline-block;
         width: 65px; }
+      .projects__menu nav ul .btn-first {
+        display: block;
+        width: 65px;
+        text-align: center;
+        margin-top: -11px;
+        margin-left: -32px; }
       .projects__menu nav ul a {
         text-decoration: none;
         padding: 10px;
@@ -565,12 +574,6 @@ h2 {
         .projects__menu nav ul a:hover {
           background-color: #c7b299;
           color: #ffffff; }
-      .projects__menu nav ul .btn-first {
-        display: block;
-        width: 65px;
-        text-align: center;
-        margin-top: -11px;
-        margin-left: -32px; }
   .projects__button {
     background-color: #998675;
     color: #ffffff;
@@ -666,7 +669,8 @@ h2 {
   top: 35%;
   left: 47%; }
   .video__player:hover {
-    cursor: pointer; }
+    cursor: pointer;
+    opacity: 0.5; }
 
 .video__title {
   position: absolute;
@@ -705,6 +709,9 @@ h2 {
 .devices__list {
   position: relative;
   padding-left: 50px; }
+  .devices__list:hover {
+    cursor: pointer;
+    opacity: 0.5; }
   .devices__list:before {
     content: '';
     background: url("../img/arrow.png") 0 0 no-repeat;
@@ -725,6 +732,9 @@ h2 {
     padding-top: 70px;
     padding-bottom: 60px;
     line-height: 45px; }
+  .counters__item:hover {
+    cursor: pointer;
+    opacity: 0.5; }
   .counters__title {
     font-size: xxx-large; }
   .counters__description {
@@ -884,6 +894,9 @@ h2 {
       margin-right: 40px; }
       .logos__content a:last-child {
         margin-right: 0; }
+      .logos__content a:hover {
+        cursor: pointer;
+        opacity: 0.5; }
 
 .about {
   background-color: #191919; }
@@ -904,14 +917,20 @@ h2 {
       margin-top: -5px; }
   .about__title {
     font-size: 24px; }
+    .about__title:hover {
+      cursor: pointer;
+      opacity: 0.5; }
   .about__description {
     font-size: 14px; }
     .about__description p {
       font-size: 12px; }
-    .about__description--first {
-      display: flex;
-      font-size: 14px;
-      color: #b8b8b8; }
+  .about__subdescription {
+    display: flex;
+    font-size: 14px;
+    color: #b8b8b8; }
+    .about__subdescription:hover {
+      cursor: pointer;
+      opacity: 0.5; }
   .about__arrow {
     display: block;
     margin-left: 10px;

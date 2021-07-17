@@ -22,12 +22,19 @@
         justify-content: center;
         list-style-type: none;
 
-        li {
+        &__btn {
           &:first-child {
             display: inline-block;
             width: 65px;
-
           }
+        }
+
+        .btn-first {
+          display: block;
+          width: 65px;
+          text-align: center;
+          margin-top: -11px;
+          margin-left: -32px;
         }
 
         a {
@@ -43,16 +50,6 @@
             background-color: #c7b299;
             color: #ffffff;
           }
-
-
-        }
-
-        .btn-first {
-          display: block;
-          width: 65px;
-          text-align: center;
-          margin-top: -11px;
-          margin-left: -32px;
         }
       }
     }
