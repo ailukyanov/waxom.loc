@@ -480,12 +480,12 @@ h2 {
 .services__line {
   margin-bottom: 80px; }
   .services__line:before {
+    content: "";
     display: inline-block;
     width: 70px;
     height: 3px;
     background-color: #f1eee9;
-    transition: background-color 0.2s;
-    content: ""; }
+    transition: background-color 0.2s; }
 
 .realization {
   padding-top: 80px;
@@ -941,10 +941,10 @@ h2 {
       color: #c7b299; }
   .about__time {
     color: #363636; }
-  .about__textcolor--bl {
+  .about__color--blue {
     text-decoration: none;
     color: #02b4e4; }
-  .about__textcolor--gr {
+  .about__color--grey {
     text-decoration: none;
     color: #959595; }
   .about__line {

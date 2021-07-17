@@ -63,12 +63,12 @@
     margin-bottom: 80px;
 
     &:before {
+      content: "";
       display: inline-block;
       width: 70px;
       height: 3px;
       background-color: #f1eee9;
       transition: background-color 0.2s;
-      content: "";
     }
   }
 }
