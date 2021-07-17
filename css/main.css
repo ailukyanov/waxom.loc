@@ -506,7 +506,7 @@ h2 {
     padding-top: 30px; }
 
 .boxes {
-  background-image: url("../img/Background1.jpg"); }
+  background-image: url("../img/jpg/Background1.jpg"); }
   .boxes__content {
     display: flex;
     justify-content: space-between;
@@ -714,7 +714,7 @@ h2 {
     opacity: 0.5; }
   .devices__list:before {
     content: '';
-    background: url("../img/arrow.png") 0 0 no-repeat;
+    background: url("../img/png/arrow.png") 0 0 no-repeat;
     width: 21px;
     height: 21px;
     position: absolute;
@@ -722,7 +722,7 @@ h2 {
     left: 0; }
 
 .counters {
-  background-image: url("../img/Background2.jpg"); }
+  background-image: url("../img/jpg/Background2.jpg"); }
   .counters__content {
     display: flex;
     justify-content: space-evenly;
@@ -881,7 +881,7 @@ h2 {
     cursor: pointer; }
 
 .logos {
-  background-image: url("../img/Background3.jpg");
+  background-image: url("../img/jpg/Background3.jpg");
   background-size: cover;
   margin-top: 80px; }
   .logos__content {
