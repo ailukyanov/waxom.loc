@@ -14,7 +14,7 @@ gulp.task('sass', function () {
 
 });
 
-// Starts a BrowerSync instance
+// Starts a BrowserSync instance
 gulp.task('default', gulp.series('sass', function(){
     browserSync.init({
         server: ".",
