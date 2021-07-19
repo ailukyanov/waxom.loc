@@ -29,6 +29,40 @@
     }
   }
 
+  &__link {
+    position: absolute;
+    top: 100px;
+    left: 140px;
+
+    svg {
+      width: 25px;
+      height: 25px;
+      fill: #fff;
+
+      &:hover {
+        cursor: pointer;
+        fill: #c7b299;
+      }
+    }
+  }
+
+  &__lupa {
+    position: absolute;
+    top: 100px;
+    left: 190px;
+
+    svg {
+      width: 25px;
+      height: 25px;
+      fill: #fff;
+
+      &:hover {
+        cursor: pointer;
+        fill: #c7b299;
+      }
+    }
+  }
+
   &__text {
     padding-top: 20px;
     padding-left: 20px;
@@ -55,26 +89,6 @@
 
     &:hover {
       color: #c7b299;
-    }
-  }
-
-  &__link {
-    position: absolute;
-    top: 100px;
-    left: 140px;
-
-    &:hover {
-      cursor: pointer;
-    }
-  }
-
-  &__lupa {
-    position: absolute;
-    top: 100px;
-    left: 190px;
-
-    &:hover {
-      cursor: pointer;
     }
   }
 

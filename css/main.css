@@ -745,6 +745,28 @@ h2 {
     position: relative; }
     .portfolio__icon img {
       max-width: 100%; }
+  .portfolio__link {
+    position: absolute;
+    top: 100px;
+    left: 140px; }
+    .portfolio__link svg {
+      width: 25px;
+      height: 25px;
+      fill: #fff; }
+      .portfolio__link svg:hover {
+        cursor: pointer;
+        fill: #c7b299; }
+  .portfolio__lupa {
+    position: absolute;
+    top: 100px;
+    left: 190px; }
+    .portfolio__lupa svg {
+      width: 25px;
+      height: 25px;
+      fill: #fff; }
+      .portfolio__lupa svg:hover {
+        cursor: pointer;
+        fill: #c7b299; }
   .portfolio__text {
     padding-top: 20px;
     padding-left: 20px;
@@ -764,18 +786,6 @@ h2 {
     margin-top: 15px; }
     .portfolio__description:hover {
       color: #c7b299; }
-  .portfolio__link {
-    position: absolute;
-    top: 100px;
-    left: 140px; }
-    .portfolio__link:hover {
-      cursor: pointer; }
-  .portfolio__lupa {
-    position: absolute;
-    top: 100px;
-    left: 190px; }
-    .portfolio__lupa:hover {
-      cursor: pointer; }
   .portfolio__triangle {
     position: absolute;
     border-left: 15px solid transparent;
