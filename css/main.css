@@ -915,7 +915,8 @@ h2 {
           justify-content: center; }
   .posts__arrows svg {
     width: 22px;
-    height: 22px; }
+    height: 22px;
+    fill: #d1d1d1; }
     .posts__arrows svg:hover {
       cursor: pointer;
       fill: #c7b299; }
