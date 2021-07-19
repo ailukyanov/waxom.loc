@@ -52,6 +52,22 @@
       background-color: #362f2d;
       cursor: pointer;
       opacity: 0.5;
+
+      .portfolios__date--day {
+        background-color: #c7b299;
+      }
+
+      .portfolios__date--month {
+        background-color: #a48d72;
+      }
+
+      .portfolios__title {
+        color: #a08f7c;
+      }
+
+      .portfolios__description {
+        color: #ffffff;
+      }
     }
 
     &:first-child {
@@ -79,10 +95,6 @@
       border-radius: 5px 5px 0 0;
     }
 
-    &:hover &--day {
-      background-color: #c7b299;
-    }
-
     &--month {
       background-color: #252525;
       height: 25px;
@@ -92,10 +104,6 @@
       padding-top: 5px;
       font-size: 12px;
       border-radius: 0 0 5px 5px;
-    }
-
-    &:hover &--month {
-      background-color: #a48d72;
     }
 
     &:hover {
@@ -161,10 +169,6 @@
     font-size: 18px;
     color: #828282;
     font-weight: 500;
-
-    &:hover {
-      color: #a08f7c;
-    }
   }
 
   &__description {
@@ -172,10 +176,6 @@
     color: #ababab;
     line-height: 1.5;
     margin-top: 15px;
-
-    &:hover {
-      color: #ffffff;
-    }
   }
 
   &__subdescription {

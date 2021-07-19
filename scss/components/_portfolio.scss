@@ -18,6 +18,24 @@
       background-color: #362f2d;
       cursor: pointer;
       opacity: 0.5;
+
+      .portfolio__triangle {
+        position: absolute;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 10px solid #362f2d;
+        border-top: 10px solid transparent;
+        bottom: 4px;
+        left: 13px;
+      }
+
+      .portfolio__title {
+        color: #d7d5d5;
+      }
+
+      .portfolio__description {
+        color: #c7b299;
+      }
     }
   }
 
@@ -75,10 +93,6 @@
     font-size: 18px;
     color: #c7b299;
     font-weight: 500;
-
-    &:hover {
-      color: #d7d5d5;
-    }
   }
 
   &__description {
@@ -86,10 +100,6 @@
     color: #d1d1d1;
     line-height: 1.5;
     margin-top: 15px;
-
-    &:hover {
-      color: #c7b299;
-    }
   }
 
   &__triangle {
@@ -100,15 +110,5 @@
     border-top: 10px solid transparent;
     bottom: 4px;
     left: 13px;
-
-    &:hover {
-      position: absolute;
-      border-left: 15px solid transparent;
-      border-right: 15px solid transparent;
-      border-bottom: 10px solid #362f2d;
-      border-top: 10px solid transparent;
-      bottom: 4px;
-      left: 13px;
-    }
   }
 }

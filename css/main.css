@@ -761,6 +761,18 @@ h2 {
       background-color: #362f2d;
       cursor: pointer;
       opacity: 0.5; }
+      .portfolio__item:hover .portfolio__triangle {
+        position: absolute;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 10px solid #362f2d;
+        border-top: 10px solid transparent;
+        bottom: 4px;
+        left: 13px; }
+      .portfolio__item:hover .portfolio__title {
+        color: #d7d5d5; }
+      .portfolio__item:hover .portfolio__description {
+        color: #c7b299; }
   .portfolio__icon {
     position: relative; }
     .portfolio__icon img {
@@ -797,15 +809,11 @@ h2 {
     font-size: 18px;
     color: #c7b299;
     font-weight: 500; }
-    .portfolio__title:hover {
-      color: #d7d5d5; }
   .portfolio__description {
     font-size: 14px;
     color: #d1d1d1;
     line-height: 1.5;
     margin-top: 15px; }
-    .portfolio__description:hover {
-      color: #c7b299; }
   .portfolio__triangle {
     position: absolute;
     border-left: 15px solid transparent;
@@ -814,14 +822,6 @@ h2 {
     border-top: 10px solid transparent;
     bottom: 4px;
     left: 13px; }
-    .portfolio__triangle:hover {
-      position: absolute;
-      border-left: 15px solid transparent;
-      border-right: 15px solid transparent;
-      border-bottom: 10px solid #362f2d;
-      border-top: 10px solid transparent;
-      bottom: 4px;
-      left: 13px; }
 
 .video__content {
   position: relative; }
@@ -976,6 +976,14 @@ h2 {
     background-color: #362f2d;
     cursor: pointer;
     opacity: 0.5; }
+    .portfolios__item:hover .portfolios__date--day {
+      background-color: #c7b299; }
+    .portfolios__item:hover .portfolios__date--month {
+      background-color: #a48d72; }
+    .portfolios__item:hover .portfolios__title {
+      color: #a08f7c; }
+    .portfolios__item:hover .portfolios__description {
+      color: #ffffff; }
   .portfolios__item:first-child {
     margin-left: 0; }
 
@@ -997,8 +1005,6 @@ h2 {
     -webkit-border-radius: 5px 5px 0 0;
        -moz-border-radius: 5px 5px 0 0;
             border-radius: 5px 5px 0 0; }
-  .portfolios__date:hover .portfolios__date--day {
-    background-color: #c7b299; }
   .portfolios__date--month {
     background-color: #252525;
     height: 25px;
@@ -1010,8 +1016,6 @@ h2 {
     -webkit-border-radius: 0 0 5px 5px;
        -moz-border-radius: 0 0 5px 5px;
             border-radius: 0 0 5px 5px; }
-  .portfolios__date:hover .portfolios__date--month {
-    background-color: #a48d72; }
   .portfolios__date:hover {
     cursor: pointer; }
   .portfolios__date img {
@@ -1072,16 +1076,12 @@ h2 {
   font-size: 18px;
   color: #828282;
   font-weight: 500; }
-  .portfolios__title:hover {
-    color: #a08f7c; }
 
 .portfolios__description {
   font-size: 14px;
   color: #ababab;
   line-height: 1.5;
   margin-top: 15px; }
-  .portfolios__description:hover {
-    color: #ffffff; }
 
 .portfolios__subdescription {
   display: -webkit-box;
