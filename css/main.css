@@ -397,6 +397,7 @@ h2 {
 .slider {
   position: relative; }
   .slider__content {
+    background-image: url("../img/jpg/background-main.jpg");
     position: relative;
     display: -webkit-box;
     display: -webkit-flex;
@@ -621,7 +622,7 @@ h2 {
     padding-top: 30px; }
 
 .boxes {
-  background-image: url("../img/jpg/Background1.jpg"); }
+  background-image: url("../img/jpg/background-boxes.jpg"); }
   .boxes__content {
     display: -webkit-box;
     display: -webkit-flex;
@@ -887,7 +888,7 @@ h2 {
     opacity: 0.5; }
   .devices__list:before {
     content: '';
-    background: url("../img/png/arrow.png") 0 0 no-repeat;
+    background: url("../img/png/arrow-devices.png") 0 0 no-repeat;
     width: 21px;
     height: 21px;
     position: absolute;
@@ -895,7 +896,7 @@ h2 {
     left: 0; }
 
 .counters {
-  background-image: url("../img/jpg/Background2.jpg"); }
+  background-image: url("../img/jpg/background-counters.jpg"); }
   .counters__content {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1106,7 +1107,7 @@ h2 {
     cursor: pointer; }
 
 .logos {
-  background-image: url("../img/jpg/Background3.jpg");
+  background-image: url("../img/jpg/background-logos.jpg");
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
