@@ -603,12 +603,14 @@ h2 {
   background: #fbfaf8; }
   .realization__slogan {
     text-align: center;
-    line-height: 1.5; }
+    line-height: 1.5;
+    margin-bottom: 45px; }
     .realization__slogan h2 {
       font-size: 30px; }
     .realization__slogan p {
       color: #939393; }
-  .realization__portfolio {
+  .realization__browser {
+    position: relative;
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
@@ -618,8 +620,29 @@ h2 {
     -webkit-justify-content: center;
        -moz-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center;
-    padding-top: 30px; }
+            justify-content: center; }
+    .realization__browser--left {
+      position: absolute;
+      left: -25px;
+      bottom: 0;
+      z-index: 100; }
+      .realization__browser--left:hover {
+        opacity: 0.5; }
+    .realization__browser--right {
+      position: absolute;
+      right: -25px;
+      bottom: 0;
+      z-index: 100; }
+      .realization__browser--right:hover {
+        opacity: 0.5; }
+    .realization__browser--center {
+      position: relative;
+      z-index: 200; }
+      .realization__browser--center:hover {
+        cursor: pointer;
+        -webkit-box-shadow: inset 0 -5px 0px #998675;
+           -moz-box-shadow: inset 0 -5px 0px #998675;
+                box-shadow: inset 0 -5px 0px #998675; }
 
 .boxes {
   background-image: url("../img/jpg/background-boxes.jpg"); }
