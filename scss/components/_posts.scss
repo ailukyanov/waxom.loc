@@ -20,14 +20,18 @@
     display: flex;
     justify-content: center;
 
-    &--right {
-      margin-left: 8px;
-    }
+    svg {
+      width: 22px;
+      height: 22px;
 
-    a {
       &:hover {
         cursor: pointer;
+        fill: #c7b299;
       }
+    }
+
+    &--right {
+      margin-left: 8px;
     }
   }
 }
