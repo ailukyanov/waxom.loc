@@ -54,8 +54,31 @@
       }
     }
 
-    .cart {
+    .icon-cart {
       margin-left: 50px;
+
+      svg {
+        width: 18px;
+        height: 24px;
+        fill: #ffffff;
+
+        &:hover {
+          fill: #998675;
+        }
+      }
+    }
+
+    .icon-search {
+
+      svg {
+        width: 24px;
+        height: 24px;
+        fill: #ffffff;
+
+        &:hover {
+          fill: #998675;
+        }
+      }
     }
   }
 }

@@ -377,8 +377,20 @@ h2 {
           transition: 0.2s; }
           .header__content .nav__item a:hover {
             color: #998675; }
-    .header__content .cart {
+    .header__content .icon-cart {
       margin-left: 50px; }
+      .header__content .icon-cart svg {
+        width: 18px;
+        height: 24px;
+        fill: #ffffff; }
+        .header__content .icon-cart svg:hover {
+          fill: #998675; }
+    .header__content .icon-search svg {
+      width: 24px;
+      height: 24px;
+      fill: #ffffff; }
+      .header__content .icon-search svg:hover {
+        fill: #998675; }
 
 .slider {
   position: relative; }
