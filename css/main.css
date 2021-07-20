@@ -645,7 +645,11 @@ h2 {
                 box-shadow: inset 0 -5px 0px #998675; }
 
 .boxes {
-  background-image: url("../img/jpg/background-boxes.jpg"); }
+  background: -webkit-gradient(linear, left top, right top, from(#211c19), color-stop(22%, #281e1c), color-stop(28%, #2a211c), color-stop(30%, #2e201d), color-stop(34%, #2d221c), color-stop(34%, #30231d), color-stop(40%, #31241e), color-stop(41%, #342520), color-stop(45%, #34251e), color-stop(67%, #412d24), color-stop(70%, #412d22), color-stop(71%, #442e23), color-stop(72%, #422e23), color-stop(72%, #452f24), to(#4e3427));
+  background: -webkit-linear-gradient(left, #211c19 0%, #281e1c 22%, #2a211c 28%, #2e201d 30%, #2d221c 34%, #30231d 34%, #31241e 40%, #342520 41%, #34251e 45%, #412d24 67%, #412d22 70%, #442e23 71%, #422e23 72%, #452f24 72%, #4e3427 100%);
+  background: -moz-linear-gradient(left, #211c19 0%, #281e1c 22%, #2a211c 28%, #2e201d 30%, #2d221c 34%, #30231d 34%, #31241e 40%, #342520 41%, #34251e 45%, #412d24 67%, #412d22 70%, #442e23 71%, #422e23 72%, #452f24 72%, #4e3427 100%);
+  background: -o-linear-gradient(left, #211c19 0%, #281e1c 22%, #2a211c 28%, #2e201d 30%, #2d221c 34%, #30231d 34%, #31241e 40%, #342520 41%, #34251e 45%, #412d24 67%, #412d22 70%, #442e23 71%, #422e23 72%, #452f24 72%, #4e3427 100%);
+  background: linear-gradient(to right, #211c19 0%, #281e1c 22%, #2a211c 28%, #2e201d 30%, #2d221c 34%, #30231d 34%, #31241e 40%, #342520 41%, #34251e 45%, #412d24 67%, #412d22 70%, #442e23 71%, #422e23 72%, #452f24 72%, #4e3427 100%); }
   .boxes__content {
     display: -webkit-box;
     display: -webkit-flex;
@@ -919,7 +923,11 @@ h2 {
     left: 0; }
 
 .counters {
-  background-image: url("../img/jpg/background-counters.jpg"); }
+  background: -webkit-gradient(linear, left top, right top, from(#211c19), color-stop(22%, #281e1c), color-stop(28%, #2a211c), color-stop(30%, #2e201d), color-stop(34%, #2d221c), color-stop(34%, #30231d), color-stop(40%, #31241e), color-stop(41%, #342520), color-stop(45%, #34251e), color-stop(67%, #412d24), color-stop(70%, #412d22), color-stop(71%, #442e23), color-stop(72%, #422e23), color-stop(72%, #452f24), to(#4e3427));
+  background: -webkit-linear-gradient(left, #211c19 0%, #281e1c 22%, #2a211c 28%, #2e201d 30%, #2d221c 34%, #30231d 34%, #31241e 40%, #342520 41%, #34251e 45%, #412d24 67%, #412d22 70%, #442e23 71%, #422e23 72%, #452f24 72%, #4e3427 100%);
+  background: -moz-linear-gradient(left, #211c19 0%, #281e1c 22%, #2a211c 28%, #2e201d 30%, #2d221c 34%, #30231d 34%, #31241e 40%, #342520 41%, #34251e 45%, #412d24 67%, #412d22 70%, #442e23 71%, #422e23 72%, #452f24 72%, #4e3427 100%);
+  background: -o-linear-gradient(left, #211c19 0%, #281e1c 22%, #2a211c 28%, #2e201d 30%, #2d221c 34%, #30231d 34%, #31241e 40%, #342520 41%, #34251e 45%, #412d24 67%, #412d22 70%, #442e23 71%, #422e23 72%, #452f24 72%, #4e3427 100%);
+  background: linear-gradient(to right, #211c19 0%, #281e1c 22%, #2a211c 28%, #2e201d 30%, #2d221c 34%, #30231d 34%, #31241e 40%, #342520 41%, #34251e 45%, #412d24 67%, #412d22 70%, #442e23 71%, #422e23 72%, #452f24 72%, #4e3427 100%); }
   .counters__content {
     display: -webkit-box;
     display: -webkit-flex;
