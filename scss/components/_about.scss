@@ -8,11 +8,22 @@
     line-height: 1.5;
     padding-top: 80px;
     padding-bottom: 85px;
+
+    @media screen and (max-width: 850px) {
+      flex-direction: column;
+      align-items: center;
+
+    }
   }
 
   &__item {
     width: 264px;
     margin-left: 25px;
+
+    @media screen and (max-width: 850px) {
+      margin-left: 0;
+      margin-bottom: 20px;
+    }
 
     &:first-child {
       margin-left: 0;
@@ -71,6 +82,7 @@
     margin-top: 15px;
 
     img {
+      max-width: 100%;
       transition: 0.2s;
 
       &:hover {

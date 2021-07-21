@@ -7,8 +7,17 @@
     padding-top: 25px;
     padding-bottom: 25px;
 
+    @media screen and (max-width: 1032px){
+      flex-direction: column;
+      align-items: center;
+    }
+
     &--left {
       margin-left: -25px;
+
+      @media screen and (max-width: 1032px){
+        margin-left: 0;
+      }
     }
   }
 
@@ -16,8 +25,18 @@
     list-style-type: none;
     display: flex;
 
+    @media screen and (max-width: 592px){
+      flex-direction: column;
+      align-items: center;
+    }
+
     li {
       border-left: 1px solid #696969;
+
+      @media screen and (max-width: 592px){
+        border-left: none;
+        margin-bottom: 10px;
+      }
 
       &:nth-child(1) {
         border-left: none;
@@ -30,6 +49,11 @@
       margin-right: 15px;
       padding-left: 10px;
       transition: 0.2s;
+
+      @media screen and (max-width: 592px){
+        margin-right: 0;
+        padding-left: 0;
+      }
 
       &:hover {
         color: #af9d87;

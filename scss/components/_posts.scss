@@ -9,10 +9,19 @@
 
     h2 {
       font-size: 30px;
+
+      @media screen and (max-width: 819px) {
+        font-size: 26px;
+      }
     }
 
     p {
+      font-size: 16px;
       line-height: 2;
+
+      @media screen and (max-width: 819px) {
+        font-size: 12px;
+      }
     }
   }
 
@@ -77,6 +86,10 @@
 
   &__bg {
     position: relative;
+
+    img {
+      max-width: 100%;
+    }
   }
 
   &__date {
@@ -110,9 +123,7 @@
       cursor: pointer;
     }
 
-    img {
-      border-radius: 5px;
-    }
+
   }
 
   &__dots {
