@@ -1,6 +1,10 @@
 .projects {
   margin-top: 80px;
 
+  &__content {
+    text-align: center;
+  }
+
   &__title {
     text-align: center;
 
@@ -41,8 +45,6 @@
           @media screen and (max-width: 654px) {
             margin-bottom: 45px;
           }
-
-
         }
 
         .btn-first {
