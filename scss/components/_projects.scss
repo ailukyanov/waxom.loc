@@ -6,10 +6,19 @@
 
     h2 {
       font-size: 30px;
+
+      @media screen and (max-width: 819px) {
+        font-size: 26px;
+      }
     }
 
     p {
+      font-size: 16px;
       line-height: 2;
+
+      @media screen and (max-width: 819px) {
+        font-size: 12px;
+      }
     }
   }
 
@@ -22,19 +31,32 @@
         justify-content: center;
         list-style-type: none;
 
-        &__btn {
-          &:first-child {
-            display: inline-block;
-            width: 65px;
+        @media screen and (max-width: 654px){
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .nav__btn {
+
+          @media screen and (max-width: 654px) {
+            margin-bottom: 45px;
           }
+
+
         }
 
         .btn-first {
-          display: block;
+          display: inline-block;
           width: 65px;
           text-align: center;
           margin-top: -11px;
           margin-left: -32px;
+
+          @media screen and (max-width: 654px) {
+            margin-top: 0;
+            margin-left: 0;
+            margin-bottom: -11px;
+          }
         }
 
         a {

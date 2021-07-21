@@ -11,8 +11,17 @@
     align-items: center;
     padding-top: 42px;
 
+    @media screen and (max-width: 1149px) {
+      flex-direction: column;
+      align-items: center;
+    }
+
     .logo {
       display: inline-block;
+
+      @media screen and (max-width: 1149px) {
+        margin-bottom: 20px;
+      }
 
       &:hover {
         cursor: pointer;
@@ -27,18 +36,39 @@
     .nav {
       margin-left: 190px;
 
+      @media screen and (max-width: 1149px) {
+        margin-left: 0;
+        margin-bottom: 20px;
+      }
+
+
+
       ul {
         display: flex;
         list-style-type: none;
         margin: 0;
         padding: 0;
+
+        @media screen and (max-width: 661px) {
+          flex-direction: column;
+          align-items: center;
+        }
       }
 
       &__item {
         margin-right: 25px;
 
+        @media screen and (max-width: 661px) {
+          margin-right: 0;
+          margin-bottom: 10px;
+        }
+
         &:last-child {
-          margin-right: 8px;
+          margin-right: 50px;
+
+          @media screen and (max-width: 1149px) {
+            margin-right: 0;
+          }
         }
 
         a {
@@ -55,7 +85,6 @@
     }
 
     .icon-cart {
-      margin-left: 50px;
 
       svg {
         width: 18px;
@@ -70,6 +99,7 @@
     }
 
     .icon-search {
+      margin-left: 20px;
 
       svg {
         width: 24px;
