@@ -1060,28 +1060,36 @@ h2 {
     opacity: 0.5; }
   .video__player img {
     max-width: 100%; }
-    @media screen and (max-width: 703px) {
+    @media screen and (max-width: 1200px) {
+      .video__player img {
+        max-width: 75%; } }
+    @media screen and (max-width: 509px) {
       .video__player img {
         max-width: 50%; } }
 
 .video__title {
   position: absolute;
-  margin-top: 15%;
+  margin-top: 17%;
   text-align: center;
   color: #f7f7f7; }
-  @media screen and (max-width: 440px) {
-    .video__title {
-      display: none; } }
   .video__title h2 {
-    font-size: 30px; }
+    font-size: 30px;
+    line-height: 0.5; }
     @media screen and (max-width: 1470px) {
       .video__title h2 {
         font-size: 24px; } }
+    @media screen and (max-width: 868px) {
+      .video__title h2 {
+        display: none; } }
   .video__title p {
-    font-size: 16px; }
+    font-size: 16px;
+    line-height: 1.5; }
     @media screen and (max-width: 1470px) {
       .video__title p {
         font-size: 12px; } }
+    @media screen and (max-width: 1200px) {
+      .video__title p {
+        display: none; } }
 
 .video__time {
   position: absolute;

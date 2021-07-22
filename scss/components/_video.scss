@@ -22,7 +22,11 @@
     img {
       max-width: 100%;
 
-      @media screen and (max-width: 703px){
+      @media screen and (max-width: 1200px){
+        max-width: 75%;
+      }
+
+      @media screen and (max-width: 509px){
         max-width: 50%;
       }
     }
@@ -30,27 +34,33 @@
 
   &__title {
     position: absolute;
-    margin-top: 15%;
+    margin-top: 17%;
     text-align: center;
     color: #f7f7f7;
 
-    @media screen and (max-width: 440px){
-      display: none;
-    }
-
     h2 {
       font-size: 30px;
+      line-height: 0.5;
 
       @media screen and (max-width: 1470px){
         font-size: 24px;
+      }
+
+      @media screen and (max-width: 868px){
+        display: none;
       }
     }
 
     p {
       font-size: 16px;
+      line-height: 1.5;
 
       @media screen and (max-width: 1470px){
         font-size: 12px;
+      }
+
+      @media screen and (max-width:1200px ){
+        display: none;
       }
     }
   }
