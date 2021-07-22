@@ -1246,6 +1246,10 @@ h2 {
   -o-transition: 0.2s;
   -moz-transition: 0.2s;
   transition: 0.2s; }
+  @media screen and (max-width: 1023px) {
+    .portfolios__item {
+      margin-left: 0;
+      margin-bottom: 50px; } }
   .portfolios__item:hover {
     background-color: #362f2d;
     cursor: pointer;

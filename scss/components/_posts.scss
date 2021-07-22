@@ -65,6 +65,11 @@
     margin-left: 25px;
     transition: 0.2s;
 
+    @media screen and (max-width: 1023px) {
+      margin-left: 0;
+      margin-bottom: 50px;
+    }
+
     &:hover {
       background-color: #362f2d;
       cursor: pointer;
