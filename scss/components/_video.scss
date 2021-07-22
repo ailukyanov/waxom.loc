@@ -21,6 +21,10 @@
 
     img {
       max-width: 100%;
+
+      @media screen and (max-width: 703px){
+        max-width: 50%;
+      }
     }
   }
 
@@ -29,6 +33,10 @@
     margin-top: 15%;
     text-align: center;
     color: #f7f7f7;
+
+    @media screen and (max-width: 440px){
+      display: none;
+    }
 
     h2 {
       font-size: 30px;

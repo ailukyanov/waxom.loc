@@ -1034,12 +1034,18 @@ h2 {
     opacity: 0.5; }
   .video__player img {
     max-width: 100%; }
+    @media screen and (max-width: 703px) {
+      .video__player img {
+        max-width: 50%; } }
 
 .video__title {
   position: absolute;
   margin-top: 15%;
   text-align: center;
   color: #f7f7f7; }
+  @media screen and (max-width: 440px) {
+    .video__title {
+      display: none; } }
   .video__title h2 {
     font-size: 30px; }
     @media screen and (max-width: 1470px) {
