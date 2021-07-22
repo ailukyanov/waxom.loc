@@ -11,9 +11,7 @@
       font-size: 30px;
       color:#555555;
 
-      @media screen and (max-width: 819px) {
-        font-size: 26px;
-      }
+
     }
 
     p {
@@ -21,9 +19,7 @@
       line-height: 2;
       color: #939393;
 
-      @media screen and (max-width: 819px) {
-        font-size: 12px;
-      }
+
     }
   }
 
@@ -54,6 +50,11 @@
     display: flex;
     justify-content: center;
     margin-bottom: 52px;
+
+    @media screen and (max-width: 1023px) {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
   &__item {
@@ -99,6 +100,7 @@
     position: absolute;
     top: 15px;
     left: 25px;
+
 
     &--day {
       background-color: #363636;
@@ -182,9 +184,7 @@
     color: #828282;
     font-weight: 500;
 
-    @media screen and (max-width: 913px){
-      font-size: 16px;
-    }
+
   }
 
   &__description {
@@ -193,9 +193,7 @@
     line-height: 1.5;
     margin-top: 15px;
 
-    @media screen and (max-width: 913px){
-      font-size: 12px;
-    }
+
   }
 
   &__subdescription {
@@ -204,9 +202,7 @@
     font-size: 14px;
     color: #c7b299;
 
-    @media screen and (max-width: 913px){
-      font-size: 12px;
-    }
+
   }
 
   &__arrow {

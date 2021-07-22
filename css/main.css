@@ -1181,16 +1181,10 @@ h2 {
   .posts__title h2 {
     font-size: 30px;
     color: #555555; }
-    @media screen and (max-width: 819px) {
-      .posts__title h2 {
-        font-size: 26px; } }
   .posts__title p {
     font-size: 16px;
     line-height: 2;
     color: #939393; }
-    @media screen and (max-width: 819px) {
-      .posts__title p {
-        font-size: 12px; } }
 
 .posts__arrows {
   display: -webkit-box;
@@ -1225,6 +1219,20 @@ h2 {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 52px; }
+  @media screen and (max-width: 1023px) {
+    .portfolios__content {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+         -moz-box-orient: vertical;
+         -moz-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+         -moz-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; } }
 
 .portfolios__item {
   margin-left: 25px;
@@ -1334,18 +1342,12 @@ h2 {
   font-size: 18px;
   color: #828282;
   font-weight: 500; }
-  @media screen and (max-width: 913px) {
-    .portfolios__title {
-      font-size: 16px; } }
 
 .portfolios__description {
   font-size: 14px;
   color: #ababab;
   line-height: 1.5;
   margin-top: 15px; }
-  @media screen and (max-width: 913px) {
-    .portfolios__description {
-      font-size: 12px; } }
 
 .portfolios__subdescription {
   display: -webkit-box;
@@ -1356,9 +1358,6 @@ h2 {
   padding-top: 15px;
   font-size: 14px;
   color: #c7b299; }
-  @media screen and (max-width: 913px) {
-    .portfolios__subdescription {
-      font-size: 12px; } }
 
 .portfolios__arrow {
   display: block;
