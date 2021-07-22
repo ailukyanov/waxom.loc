@@ -13,7 +13,11 @@
     height: 980px;
 
     @media screen and (max-width: 661px) {
-      padding-top: 35%;
+      padding-top: 50%;
+    }
+
+    @media screen and (max-width: 443px) {
+      padding-top: 80%;
     }
   }
 
@@ -34,6 +38,10 @@
 
     @media screen and (max-width: 830px) {
       font-size: 20px;
+    }
+
+    @media screen and (max-width: 661px) {
+      line-height: 3;
     }
   }
 

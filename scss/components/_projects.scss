@@ -30,6 +30,7 @@
   }
 
   &__menu {
+
     nav {
       padding-top: 5px;
 
@@ -46,7 +47,7 @@
         .nav__btn {
 
           @media screen and (max-width: 654px) {
-            margin-bottom: 45px;
+            margin-bottom: 50px;
           }
         }
 
