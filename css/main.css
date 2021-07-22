@@ -720,41 +720,49 @@ h2 {
       @media screen and (max-width: 624px) {
         .realization__slogan p {
           font-size: 10px; } }
-  .realization__browser {
+  .realization__browser img {
+    max-width: 100%; }
+
+/* Positions variant
+  &__browser {
+
     position: relative;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-       -moz-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
-    .realization__browser--left {
+    justify-content: center;
+
+    &--left {
       position: absolute;
       left: -25px;
       bottom: 0;
-      z-index: 100; }
-      .realization__browser--left:hover {
-        opacity: 0.5; }
-    .realization__browser--right {
+      z-index: 100;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+
+    &--right {
       position: absolute;
       right: -25px;
       bottom: 0;
-      z-index: 100; }
-      .realization__browser--right:hover {
-        opacity: 0.5; }
-    .realization__browser--center {
-      position: relative;
-      z-index: 200; }
-      .realization__browser--center:hover {
-        cursor: pointer;
-        -webkit-box-shadow: inset 0 -5px 0px #998675;
-           -moz-box-shadow: inset 0 -5px 0px #998675;
-                box-shadow: inset 0 -5px 0px #998675; }
+      z-index: 100;
 
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+
+    &--center {
+      position: relative;
+      z-index: 200;
+
+      &:hover {
+        cursor: pointer;
+        box-shadow: inset 0 -5px 0px #998675;
+      }
+    }
+  }
+  */
 .boxes {
   background: -webkit-gradient(linear, left top, right top, from(#211c19), color-stop(22%, #281e1c), color-stop(28%, #2a211c), color-stop(30%, #2e201d), color-stop(34%, #2d221c), color-stop(34%, #30231d), color-stop(40%, #31241e), color-stop(41%, #342520), color-stop(45%, #34251e), color-stop(67%, #412d24), color-stop(70%, #412d22), color-stop(71%, #442e23), color-stop(72%, #422e23), color-stop(72%, #452f24), to(#4e3427));
   background: -webkit-linear-gradient(left, #211c19 0%, #281e1c 22%, #2a211c 28%, #2e201d 30%, #2d221c 34%, #30231d 34%, #31241e 40%, #342520 41%, #34251e 45%, #412d24 67%, #412d22 70%, #442e23 71%, #422e23 72%, #452f24 72%, #4e3427 100%);
