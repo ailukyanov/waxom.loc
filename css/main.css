@@ -1181,10 +1181,16 @@ h2 {
   .posts__title h2 {
     font-size: 30px;
     color: #555555; }
+    @media screen and (max-width: 819px) {
+      .posts__title h2 {
+        font-size: 26px; } }
   .posts__title p {
     font-size: 16px;
     line-height: 2;
     color: #939393; }
+    @media screen and (max-width: 819px) {
+      .posts__title p {
+        font-size: 12px; } }
 
 .posts__arrows {
   display: -webkit-box;
@@ -1342,12 +1348,18 @@ h2 {
   font-size: 18px;
   color: #828282;
   font-weight: 500; }
+  @media screen and (max-width: 624px) {
+    .portfolios__title {
+      font-size: 14px; } }
 
 .portfolios__description {
   font-size: 14px;
   color: #ababab;
   line-height: 1.5;
   margin-top: 15px; }
+  @media screen and (max-width: 624px) {
+    .portfolios__description {
+      font-size: 10px; } }
 
 .portfolios__subdescription {
   display: -webkit-box;
@@ -1358,6 +1370,9 @@ h2 {
   padding-top: 15px;
   font-size: 14px;
   color: #c7b299; }
+  @media screen and (max-width: 624px) {
+    .portfolios__subdescription {
+      font-size: 11px; } }
 
 .portfolios__arrow {
   display: block;
