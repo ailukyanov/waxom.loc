@@ -1042,8 +1042,14 @@ h2 {
   color: #f7f7f7; }
   .video__title h2 {
     font-size: 30px; }
+    @media screen and (max-width: 1470px) {
+      .video__title h2 {
+        font-size: 24px; } }
   .video__title p {
     font-size: 16px; }
+    @media screen and (max-width: 1470px) {
+      .video__title p {
+        font-size: 12px; } }
 
 .video__time {
   position: absolute;
@@ -1322,12 +1328,18 @@ h2 {
   font-size: 18px;
   color: #828282;
   font-weight: 500; }
+  @media screen and (max-width: 913px) {
+    .portfolios__title {
+      font-size: 16px; } }
 
 .portfolios__description {
   font-size: 14px;
   color: #ababab;
   line-height: 1.5;
   margin-top: 15px; }
+  @media screen and (max-width: 913px) {
+    .portfolios__description {
+      font-size: 12px; } }
 
 .portfolios__subdescription {
   display: -webkit-box;
@@ -1338,6 +1350,9 @@ h2 {
   padding-top: 15px;
   font-size: 14px;
   color: #c7b299; }
+  @media screen and (max-width: 913px) {
+    .portfolios__subdescription {
+      font-size: 12px; } }
 
 .portfolios__arrow {
   display: block;

@@ -181,6 +181,10 @@
     font-size: 18px;
     color: #828282;
     font-weight: 500;
+
+    @media screen and (max-width: 913px){
+      font-size: 16px;
+    }
   }
 
   &__description {
@@ -188,6 +192,10 @@
     color: #ababab;
     line-height: 1.5;
     margin-top: 15px;
+
+    @media screen and (max-width: 913px){
+      font-size: 12px;
+    }
   }
 
   &__subdescription {
@@ -195,6 +203,10 @@
     padding-top: 15px;
     font-size: 14px;
     color: #c7b299;
+
+    @media screen and (max-width: 913px){
+      font-size: 12px;
+    }
   }
 
   &__arrow {
