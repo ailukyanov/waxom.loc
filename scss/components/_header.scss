@@ -41,8 +41,6 @@
         margin-bottom: 20px;
       }
 
-
-
       ul {
         display: flex;
         list-style-type: none;
@@ -85,6 +83,7 @@
     }
 
     .icon-cart {
+      text-decoration: none;
 
       svg {
         width: 18px;
@@ -100,6 +99,7 @@
 
     .icon-search {
       margin-left: 20px;
+      text-decoration: none;
 
       svg {
         width: 24px;

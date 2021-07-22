@@ -419,15 +419,18 @@ h2 {
           transition: 0.2s; }
           .header__content .nav__item a:hover {
             color: #998675; }
-    .header__content .icon-cart svg {
-      width: 18px;
-      height: 24px;
-      fill: #ffffff; }
-      .header__content .icon-cart svg:hover {
-        cursor: pointer;
-        fill: #998675; }
+    .header__content .icon-cart {
+      text-decoration: none; }
+      .header__content .icon-cart svg {
+        width: 18px;
+        height: 24px;
+        fill: #ffffff; }
+        .header__content .icon-cart svg:hover {
+          cursor: pointer;
+          fill: #998675; }
     .header__content .icon-search {
-      margin-left: 20px; }
+      margin-left: 20px;
+      text-decoration: none; }
       .header__content .icon-search svg {
         width: 24px;
         height: 24px;
@@ -684,7 +687,8 @@ h2 {
     line-height: 1.5;
     margin-bottom: 45px; }
     .realization__slogan h2 {
-      font-size: 30px; }
+      font-size: 30px;
+      color: #555555; }
       @media screen and (max-width: 819px) {
         .realization__slogan h2 {
           font-size: 20px; } }
@@ -826,13 +830,15 @@ h2 {
   .projects__title {
     text-align: center; }
     .projects__title h2 {
-      font-size: 30px; }
+      font-size: 30px;
+      color: #555555; }
       @media screen and (max-width: 819px) {
         .projects__title h2 {
           font-size: 26px; } }
     .projects__title p {
       font-size: 16px;
-      line-height: 2; }
+      line-height: 2;
+      color: #939393; }
       @media screen and (max-width: 819px) {
         .projects__title p {
           font-size: 12px; } }
@@ -1154,13 +1160,15 @@ h2 {
 .posts__title {
   text-align: center; }
   .posts__title h2 {
-    font-size: 30px; }
+    font-size: 30px;
+    color: #555555; }
     @media screen and (max-width: 819px) {
       .posts__title h2 {
         font-size: 26px; } }
   .posts__title p {
     font-size: 16px;
-    line-height: 2; }
+    line-height: 2;
+    color: #939393; }
     @media screen and (max-width: 819px) {
       .posts__title p {
         font-size: 12px; } }
