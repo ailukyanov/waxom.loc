@@ -15,13 +15,28 @@
       flex-direction: column;
       align-items: center;
     }
+
+    @media screen and (max-width: 480px) {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
   }
 
   &__item {
 
     @media screen and (max-width: 767px){
       margin-bottom: 50px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
+
+    @media screen and (max-width: 480px) {
+      margin-bottom: 20px;
+    }
+
+
 
     &:hover {
       cursor: pointer;
