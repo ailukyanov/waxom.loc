@@ -2,6 +2,10 @@
 
   &__content {
     margin-top: 80px;
+
+    @media screen and (max-width: 480px) {
+      margin-top: 20px;
+    }
   }
 
   &__title {
@@ -30,6 +34,10 @@
   &__arrows {
     display: flex;
     justify-content: center;
+
+    @media screen and (max-width: 480px) {
+      margin-top: -30px;
+    }
 
     svg {
       width: 22px;
@@ -72,6 +80,10 @@
       &:last-child {
         margin-bottom: 0;
       }
+    }
+
+    @media screen and (max-width: 480px) {
+      margin-bottom: 20px;
     }
 
     &:hover {
