@@ -1505,7 +1505,7 @@ h2 {
     color: #ffffff;
     line-height: 1.5;
     padding-top: 80px;
-    padding-bottom: 85px; }
+    padding-bottom: 80px; }
     @media screen and (max-width: 850px) {
       .about__content {
         -webkit-box-orient: vertical;
@@ -1519,7 +1519,8 @@ h2 {
         -webkit-align-items: center;
            -moz-box-align: center;
             -ms-flex-align: center;
-                align-items: center; } }
+                align-items: center;
+        padding-bottom: 40px; } }
   .about__item {
     width: 264px;
     margin-left: 25px; }
@@ -1633,10 +1634,13 @@ h2 {
             -ms-flex-align: center;
                 align-items: center; } }
     .footer__content--left {
-      margin-left: -25px; }
-      @media screen and (max-width: 1032px) {
+      margin-left: -30px; }
+      @media screen and (max-width: 1190px) {
         .footer__content--left {
-          margin-left: 0; } }
+          margin-left: -40px; } }
+    @media screen and (max-width: 1032px) {
+      .footer__content--right {
+        margin-left: -40px; } }
     .footer__content ul {
       list-style-type: none;
       display: -webkit-box;
