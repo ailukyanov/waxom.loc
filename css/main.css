@@ -370,8 +370,10 @@ h2 {
       .header__content .logo:hover {
         cursor: pointer;
         opacity: 0.5; }
-      .header__content .logo img {
-        max-width: 100%; }
+      .header__content .logo svg {
+        width: 181px;
+        height: 56px;
+        fill: #ffffff; }
     .header__content .nav {
       margin-left: 190px; }
       @media screen and (max-width: 1149px) {
