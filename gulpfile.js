@@ -1,13 +1,31 @@
 'use strict';
 
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var browserSync = require('browser-sync').create();
-var sourcemaps = require('gulp-sourcemaps');
-var postcss = require('gulp-postcss');
-var autoprefixer = require('autoprefixer');
+const gulp = require('gulp');
+const sass = require('gulp-sass');
+const browserSync = require('browser-sync').create();
+const sourcemaps = require('gulp-sourcemaps');
+const postcss = require('gulp-postcss');
+const autoprefixer = require('autoprefixer');
+const imagemin = require('gulp-imagemin');
 
 sass.compiler = require('node-sass');
+
+gulp.task('images-optimize-jpg', () => {
+    return gulp.src('./img/jpg/*')
+        .pipe(imagemin())
+        .pipe(gulp.dest('./img/jpg'));
+});
+
+gulp.task('images-optimize-png', () => {
+    return gulp.src('./img/png/*')
+        .pipe(imagemin())
+        .pipe(gulp.dest('./img/png'));
+});
+
+gulp.task('images-optimize', gulp.series(
+    'images-optimize-jpg',
+    'images-optimize-png'
+));
 
 gulp.task('sass', function () {
     return gulp.src('./scss/**/*.scss')
