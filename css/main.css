@@ -1054,7 +1054,8 @@ h2 {
 
 .video__player {
   position: absolute;
-  margin-top: 10%; }
+  margin-top: 10%;
+  text-align: center; }
   .video__player:hover {
     cursor: pointer;
     opacity: 0.5; }
