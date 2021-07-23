@@ -717,10 +717,16 @@ h2 {
 .realization {
   padding-top: 80px;
   background: #fbfaf8; }
+  @media screen and (max-width: 480px) {
+    .realization {
+      padding-top: 20px; } }
   .realization__slogan {
     text-align: center;
     line-height: 1.5;
     margin-bottom: 45px; }
+    @media screen and (max-width: 480px) {
+      .realization__slogan {
+        margin-bottom: 20px; } }
     .realization__slogan h2 {
       font-size: 30px;
       color: #555555; }
