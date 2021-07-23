@@ -648,6 +648,9 @@ h2 {
          -moz-box-align: center;
           -ms-flex-align: center;
               align-items: center; } }
+  @media screen and (max-width: 480px) {
+    .services__content {
+      padding-top: 20px; } }
 
 .services__item {
   text-align: center; }
@@ -656,6 +659,9 @@ h2 {
       margin-bottom: 50px; }
       .services__item :last-child {
         margin-bottom: 0; } }
+  @media screen and (max-width: 480px) {
+    .services__item {
+      margin-bottom: 20px; } }
   .services__item:hover {
     cursor: pointer; }
     .services__item:hover .services__icon svg {
@@ -691,6 +697,9 @@ h2 {
   font-size: 16px;
   color: #777777;
   line-height: 24px; }
+  @media screen and (max-width: 480px) {
+    .services__description {
+      margin-bottom: 10px; } }
 
 .services__line {
   margin-bottom: 80px; }
