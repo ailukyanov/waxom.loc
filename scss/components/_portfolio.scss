@@ -6,6 +6,10 @@
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 40px;
+
+    @media screen and (max-width: 480px){
+      margin-top: 0px;
+    }
   }
 
   &__item {
@@ -13,6 +17,10 @@
     background-color: #fbfaf8;
     padding-bottom: 20px;
     transition: 0.2s;
+
+    @media screen and (max-width: 480px){
+      margin-bottom: 20px;
+    }
 
     &:hover {
       background-color: #362f2d;

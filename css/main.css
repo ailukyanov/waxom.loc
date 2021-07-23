@@ -878,6 +878,10 @@ h2 {
 .projects {
   margin-top: 80px;
   margin-bottom: 80px; }
+  @media screen and (max-width: 480px) {
+    .projects {
+      margin-top: 20px;
+      margin-bottom: 20px; } }
   .projects__content {
     text-align: center; }
   .projects__title {
@@ -926,6 +930,11 @@ h2 {
       @media screen and (max-width: 654px) {
         .projects__menu nav ul .nav__btn {
           margin-bottom: 50px; } }
+      @media screen and (max-width: 480px) {
+        .projects__menu nav ul .nav__btn {
+          margin-bottom: 40px; }
+          .projects__menu nav ul .nav__btn:last-child {
+            margin-bottom: 20px; } }
       .projects__menu nav ul .btn-first {
         display: inline-block;
         width: 65px;
@@ -988,6 +997,9 @@ h2 {
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
     margin-top: 40px; }
+    @media screen and (max-width: 480px) {
+      .portfolio__content {
+        margin-top: 0px; } }
   .portfolio__item {
     margin-bottom: 50px;
     background-color: #fbfaf8;
@@ -996,6 +1008,9 @@ h2 {
     -o-transition: 0.2s;
     -moz-transition: 0.2s;
     transition: 0.2s; }
+    @media screen and (max-width: 480px) {
+      .portfolio__item {
+        margin-bottom: 20px; } }
     .portfolio__item:hover {
       background-color: #362f2d;
       cursor: pointer;
@@ -1150,6 +1165,12 @@ h2 {
          -moz-box-align: center;
           -ms-flex-align: center;
               align-items: center; } }
+  @media screen and (max-width: 1128px) {
+    .devices__content {
+      padding-bottom: 15px; } }
+  @media screen and (max-width: 480px) {
+    .devices__content {
+      padding-top: 20px; } }
 
 .devices__photo img {
   max-width: 100%; }
