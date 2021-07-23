@@ -39,6 +39,12 @@
     nav {
       padding-top: 5px;
 
+      @media screen and (max-width: 480px) {
+        padding-top: 0;
+      }
+
+
+
       ul {
         display: flex;
         justify-content: center;
@@ -53,10 +59,10 @@
 
           @media screen and (max-width: 654px) {
             margin-bottom: 50px;
+            margin-left: -30px;
           }
 
           @media screen and (max-width: 480px) {
-
             margin-bottom: 40px;
 
             &:last-child {

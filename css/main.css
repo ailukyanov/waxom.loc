@@ -901,6 +901,9 @@ h2 {
           font-size: 12px; } }
   .projects__menu nav {
     padding-top: 5px; }
+    @media screen and (max-width: 480px) {
+      .projects__menu nav {
+        padding-top: 0; } }
     .projects__menu nav ul {
       display: -webkit-box;
       display: -webkit-flex;
@@ -929,7 +932,8 @@ h2 {
                   align-items: center; } }
       @media screen and (max-width: 654px) {
         .projects__menu nav ul .nav__btn {
-          margin-bottom: 50px; } }
+          margin-bottom: 50px;
+          margin-left: -30px; } }
       @media screen and (max-width: 480px) {
         .projects__menu nav ul .nav__btn {
           margin-bottom: 40px; }
@@ -997,7 +1001,7 @@ h2 {
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
     margin-top: 40px; }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 654px) {
       .portfolio__content {
         margin-top: 0px; } }
   .portfolio__item {
